@@ -1,0 +1,14 @@
+.DIVDIV {
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    border: 5px;
+    border-color: red;
+    border-style: dotted;
+    border-radius: 1cm;
+    margin: 10px;
+    background-color: black;
+    display: inline-block;
+    
+
+}
