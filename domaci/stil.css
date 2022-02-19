@@ -1,0 +1,39 @@
+html {
+    background-color: black;
+    
+}
+
+.MojDiv {
+font-size: 2cm;
+background-color: red
+;
+text-align: center;
+
+}
+
+#Tekst {
+
+    color: white;
+    text-decoration-line:underline;
+}
+.DrugiDiv {
+    text-align: center;
+    width: 600px;
+    height: 600px;
+    margin: auto;    
+    
+    
+    
+}
+.prviH {
+    width: auto;
+    height: 10cm;
+    text-align: center;
+    background-color: brown;
+}
+
+#csgo {
+    color: red;
+    font-size: 3cm;
+    
+}

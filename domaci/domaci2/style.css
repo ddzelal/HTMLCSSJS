@@ -1,0 +1,142 @@
+html{
+
+
+    background-image: url('proba.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+#divnaslov 
+    
+#POCETNA{
+    
+    display: auto ;
+    padding: 1px 2px 1px 2px;
+    border: 1px, 2px, 1px, 2px;
+    border-radius: 2cm;
+    background-color: red;
+    
+
+}
+
+#naslov{
+
+     background-color: white;  
+    text-align: center;
+    color: red;
+    padding: 20px;
+    border: 10px;
+    border-color: red;
+    font-size: 20px;
+   text-decoration-line: underline;
+    border-radius: 1cm; 
+    
+}
+
+.kocke{
+    display: flex;
+     justify-content: space-between;
+    align-items: center; 
+    gap: 20px;
+    margin-top: 10px;
+    
+}
+.kocke2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-top: 10px;
+    margin-top: 20px;
+
+}
+
+.DIV1 {
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    border: 5px;
+    border-color: red;
+    border-style: dotted;
+    border-radius: 1cm;
+    /* margin: 10px 100px 10px 15px; */
+    background-color: black;
+    display: inline-block;
+    
+    
+    
+}
+.DIV2 {
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    border: 5px;
+    border-color: red;
+    border-style: dotted;
+    border-radius: 1cm;
+    /* margin-right: 100px; */
+    background-color: black;
+    display: inline-block;
+
+    
+
+}
+
+.DIV3 {
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    border: 5px;
+    border-color: red;
+    border-style: dotted;
+    border-radius: 1cm;
+    /* margin-left: 10px; */
+    background-color: black;
+    display: inline-block;
+    
+    
+
+}
+
+.DIV4 {
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    border: 5px;
+    border-color: red;
+    border-style: dotted;
+    border-radius: 1cm;
+    /* margin: 10px 100px 10px 0px; */
+    background-color: black;
+    display: inline-block;
+
+    
+
+}
+
+.DIV5 {
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    border: 5px;
+    border-color: red;
+    border-style: dotted;
+    border-radius: 1cm;
+    /* margin: 10px; */
+    background-color: black;
+    display: inline-block;
+    
+
+}
+
+.DIV6 {
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    border: 5px;
+    border-color: red;
+    border-style: dotted;
+    border-radius: 1cm;
+    /* margin: 10px; */
+    background-color: black;
+    display: inline-block; }
