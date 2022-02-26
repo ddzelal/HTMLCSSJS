@@ -1,0 +1,104 @@
+.Pocetna {
+  text-align: center;
+  font-style: initial;
+}
+.nesto {
+  text-align: center;
+  font-style: initial;
+}
+
+.treca {
+  font-size: 8px;
+}
+.prvi {
+  background-color: white;
+  padding: 10px;
+  border: 10px;
+  border: solid rgb(180, 195, 224);
+  border-radius: 10px;
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+}
+
+.drugi {
+  background-color: white;
+  padding: 10px;
+  border: 10px;
+  border: solid blue;
+  border-radius: 10px;
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+}
+
+.treci {
+  background-color: white;
+  padding: 10px;
+  border: 10px;
+  border: solid  rgb(180, 195, 224);
+  margin: 10px;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+}
+.cetvrti {
+  background-color: white;
+  padding: 10px;
+  border: 10px;
+  border: solid  rgb(180, 195, 224);
+  border-radius: 10px;
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+}
+.kocke {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.BAT {
+  width: 300px;
+  height: auto;
+  text-align: left;
+}
+.maja {
+  margin-bottom: 30px;
+  text-align: end;
+}
+
+.ikonica {
+  align-items: flex-end;
+  margin-left: 225px;
+  width: 15px;
+  height: 15px;
+  font-size: 15px;
+}
+
+.test {
+    margin-bottom: -25px;
+}
+
+#id {
+    margin-top: 35px;
+}
+.BAT{
+    background-color:rgb(42, 42, 104);
+    color: aliceblue;
+    
+}.but11 {
+    background-color:aqua;
+    margin-right: -10px;
+}
+.novakocka {
+
+  background-color: white;
+  padding: 10px ;
+  border: 10px solid blueviolet;
+  border-radius: 20px;
+  width: 300px;
+  height: 300px;
+
+}
