@@ -1,0 +1,276 @@
+
+html{
+    width: 100%;
+}
+body {
+    width: 100%;
+    /* max-width:  1536px; !important  */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+
+.heder {
+    margin: 0px;
+    position: relative;
+    width: 100%;
+    height: 64px;
+    /* background-color: #9f7aea; */
+    position: sticky;
+    position: webkit-sticky;
+    top: 0px;
+    z-index: 100;
+}
+.tailblock {
+    position: absolute;
+    top: 20px;
+    color: #fdfffe;
+    left: 27px;
+    font-family: inherit;
+    
+}
+#iconleft {
+    font-size: 14px;
+    margin-left: 10px;
+    position: absolute;
+    top: 24px;
+    color: #fdfffe;
+}
+.viewcode {
+    box-sizing: border-box;
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    left: 60%;
+    top: 16px;
+    border: 1px solid white ;
+    border: 1px solid hsla(0,0%,100%,.4);
+    background-color: #9f7aea;
+    background-image: none;
+    border-radius: 20px;
+}
+.viewcodeicon {
+    position: absolute;
+    left:0px;
+    margin-left: -20px;  
+    background-color: #fdfffe;
+    color: #fdfffe;
+}
+.vc {
+    margin-left: 5px;
+    color: #fdfffe;
+    font-family: inherit;
+    
+}
+#viewcodeicon {
+    color: #fdfffe;
+}
+.colormenu {
+    position: absolute;
+    left: 72%;
+    top: 15px;
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding-left: 15px;
+}
+.color_btn {
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    margin: 5px 1px;
+}
+
+.mob {
+    position: absolute;
+    right: 60px;
+    top: 20px;
+    box-sizing: border-box;
+    width: 100px;
+    height: 100%;
+}
+
+#monitor {
+    position: absolute;
+    right: 118px;
+    width: 24px;
+    height: 24px;
+    font-size: 22px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+    color: white;
+
+}
+#phone {
+
+    width: 24px;
+    height: 24px;
+    font-size: 22px;
+    color: white;
+    
+    
+}
+#mobile {
+    width: 24px;
+    height: 24px;
+    font-size: 22px;
+    color: white;
+
+}
+.svetlo {
+    display: flex;
+    box-sizing: border-box;
+    height: 32px;
+    width: 60px;
+    background-color: #FFFFFF31;
+    position: absolute;
+    right: 15px;
+    top: 16px;
+    border-radius: 40px;
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    
+}
+.noc {
+    margin: auto;
+    border-radius: 50%;
+    background-color: #9f7aea;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+#sun {
+color: #e5e7eb;
+margin: auto;
+cursor: pointer;
+}
+
+.slika {
+    font-size: 100px;
+    width: 150px;
+    height: 50px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.container {
+    width: 100%;
+
+}
+.naslov {
+    margin-top: 50px;
+    font-family: inherit;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 500;
+}
+.podnaslov {
+    font-family: inherit;
+    text-align: center;
+    line-height: 1.625;
+}
+.kocke {
+    width: 100%;
+    height: 700px   ;
+     /* background-color: #9f7aea;  */
+    align-items: center;
+    margin: auto    ;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.onediv {
+    width: 500px;
+    display: flex;
+    box-sizing: border-box;
+    /* position: relative; */
+    left: 80px;
+    top: 50px;
+}
+.one {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+.h_one {
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 1.75rem;
+    margin-left: 10px;
+    display: block;
+    font-weight: 600;
+    /* color: #6B7280; */
+}
+.h_two {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.75rem;
+    margin-left: 10px;
+    display: block;
+    color: #6B7280;
+    font-weight: 600;
+}
+.onerigth {
+    display: block;
+    
+}
+
+.h_three {
+    font-family: inherit;
+    font-size: 13px;
+    margin-left: 10px;
+    color: #6B7280;
+    font-weight: 600;
+}
+#hicon {
+    font-size: 20px;
+    color: #6B7280;
+    margin-left: 10px;
+}
+
+.dvesta {
+
+ margin-top: 80px;
+ margin-left: 30px;
+ font-size: 30px;
+ font-weight: 100;
+ color: gray;
+}
+
+
+.twodiv{
+    display:inline-block;
+    position: relative;
+    left: 800px;
+    top: -200px;
+}
+
+.threediv{
+    position: relative;
+    top: -150px;
+
+}
+
+.fordiv {
+     position:relative;
+    top: -350px;
+    left: 800px;
+}
+
+.fix {
+    width: 100%;
+}

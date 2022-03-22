@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.kocka {
+    display: flex;
+    width: 100vw;
+    height: 100vw;
+}
+
+.jedan {
+    width: 70%;
+    height: 100%;
+    background-color: aqua;
+}
+
+.dva {
+    width: 30%;
+    height: 100%;
+    background-color: blue;
+}
+
+.prvired {
+    width: 100%;
+    height: 150px;
+    display: flex;
+}
+#jedan {
+    margin-top: 20px;
+}
+
+#dva {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+#tri {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+#one {
+   
+    font-size: 20px;
+    
+}
+
+
+
+#two {
+    
+    font-size: 20px;
+    margin-left: 80px;
+
+}
+
+#three {
+font-size: 20px;
+margin-left: 100px;
+    
+}
+.drugired {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin-top: -80px;
+}
+
+.kocke {
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+
+.prvakocka {
+    width: 50px;
+    height: 100%;
+    background-color: red;
+    margin: 0px 20px 0px 20px;
+}
+.drugakocka {
+    width: 50px;
+    height: 100%;
+    background-color: red;
+    margin: 0px 20px 0px 20px;
+}
+
+.trecakocka {
+    width: 50px;
+    height: 100%;
+    background-color: red;
+    margin: 0px 20px 0px 20px;
+}
+
+.cetvrtakocka {
+    width: 50px;
+    height: 100%;
+    background-color: red;
+    margin: 0px 20px 0px 20px;
+}
+

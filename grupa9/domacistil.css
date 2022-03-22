@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  /* box-sizing: border-box; */
+  display: flex;
+}
+
+.icons {
+  width: 800px;
+  height: 50px;
+  background-color: blue;
+  margin: auto;
+  align-items: center;
+  margin-top: 100px;
+  display: flex;
+}
+.jedan {
+  width: 25%;
+  height: 100%;
+  /* background-color: rgb(167, 189, 204); */
+  border-bottom: 2px solid blue;
+
+  background-image: linear-gradient(to right, blue, wheat);
+}
+.dva {
+  width: 25%;
+  height: 100%;
+  background-color: wheat;
+  border-bottom: 1px solid gray;
+  /* background-color: red; */
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.tri {
+  width: 25%;
+  height: 100%;
+  background-color: wheat;
+  border-bottom: 1px solid gray;
+}
+.cetri {
+  width: 25%;
+  height: 100%;
+  background-color: wheat;
+  border-bottom: 1px solid gray;
+  animation: nesto 5s infinite;
+  
+}
+
+@keyframes nesto {
+  50% {
+    border-bottom: 15px solid lightblue;
+  }
+}
+
+.text {
+  font-size: 22px;
+  margin-left: 50px;
+  align-items: center;
+}
+
+.sedamsto {
+  margin: auto;
+  width: 600px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  background-color: gray;
+  margin-top: 50px;
+  background-color: rgb(224, 215, 215);
+}
+
+.tekst {
+  font-size: 50px;
+  text-align: center;
+  margin-left: 200px;
+  color: gray;
+}
+
+.txt {
+  text-align: center;
+  font-size: 24px;
+}
+
+.txt1 {
+  text-align-last: center;
+}
+
+.zatxt {
+  /* align-items: center; */
+  margin: auto;
+  width: 750px;
+  text-align: justify; /* For Edge */
+  -moz-text-align-last: center; /* For Firefox prior 58.0 */
+  text-align-last: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-variant: small-caps;
+}
+
+
+
+
+.java {
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    align-items: center;
+    
+}
+.demo {
+    width: 100px;
+    height: 80px;
+}
+.glavni {
+width: 100vw;
+height: 450px;
+background-color: rebeccapurple;
+position: sticky;
+position: -webkit-sticky;
+top: 0px;
+text-align: center;
+align-items: center;
+justify-items: center;
+
+}
+.j {
+  width: 150px;
+  height: 80px;
+  position: absolute;
+  left: 20px;
+}
+.d {
+  width: 150px;
+  height: 80px;
+}
+.t {
+  width: 150px;
+  height: 80px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.c {
+  width: 150px;
+  height: 80px;
+  position: absolute;
+  right: 20px;
+}
+.centar {
+  width: 150px;
+  height: 80px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  left: 50%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+}
+.heder {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0px;
+  z-index: 10;
+}

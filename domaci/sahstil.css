@@ -1,0 +1,69 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: rgb(253, 164, 48);
+}
+.one {
+    background-color: burlywood;
+
+}
+
+.two {
+    background-color: brown;
+}
+
+.jedan {
+    background-color: brown;
+}
+.dva {
+    background-color: burlywood;
+}
+.container {
+    border: 30px solid burlywood;
+    border-style:double;
+    width: 640px;
+    height: 640px;
+    background-color: red;
+    display: grid;
+    margin: auto;
+    margin-top: 70px;
+    grid-template-columns: repeat(8, 80px);
+    grid-template-rows:  repeat(8, 80px);
+    transition: 3s;
+   
+    
+}
+
+
+
+
+#icon {
+    font-size: 60px;
+    padding: 10px;
+    margin-left: 10px;
+    transition: 2s;
+}
+
+#icon2 {
+    font-size: 60px;
+    padding: 10px;
+    margin-left: 10px;
+    transition: 2s;
+}
+
+#icon:hover {
+    transform: translate(0px,80px);
+}
+
+#icon2:hover {
+    transform: translate(0px,-80px);
+}
+
+
+
+
+
+
+
+

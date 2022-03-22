@@ -1,0 +1,399 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="heder">
+    <div class="logo">
+      <img class="col"
+        src="data:image/webp;base64,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"
+        alt="" />
+    </div>
+    <div class="belera">
+      <div class="doheder">
+        <i id="plus" class="fa-thin fa-plus"></i>
+        <span style="color: #9b9b9b">BELARA</span>
+      </div>
+    </div>
+    <div class="hedericon">
+      <div class="iconcenatr">
+        <div class="linija">
+          <i id="icon" class="fa-solid fa-desktop"></i>
+        </div>
+        <div class="linija">
+          <i style="margin-left: 10px" id="icon" class="fa-solid fa-tablet-screen-button"></i>
+        </div>
+        <div class="linija">
+          <i style="margin-left: 10px" id="icon" class="fas fa-regular fa-mobile"></i>
+        </div>
+
+        <div id="kanta" class="linija">
+          <i style="color: aliceblue; font-size: 26px" id="icon" class="fa-solid fa-cart-shopping"></i>
+        </div>
+
+        <div class="linija">
+          <i style="margin-left: 10px" id="icon" class="fa-solid fa-xmark"></i>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div id="new1" class="newclick" onclick="" >
+    <i  onclick="hide()"  id="close" class="fas fa-thin fa-xmark"></i>
+
+
+    <div class="menu">
+      <span id="menutxt">Home</span>
+      <span id="menutxt" >About</span>
+      <span id="menutxt" >Services</span>
+      <span id="menutxt" >Projects</span>
+      <span id="menutxt" >Blog +</span>
+      <span id="menutxt" >Contact</span>
+    </div>
+    <div id="newicon" class="picon">
+      <a   id="fb" class="fa-brands fa-facebook" target="_blank" href="https://sr-rs.facebook.com/dzelal.dupljak" > </a>
+      
+      <a id="ins" class="fa-brands fa-instagram" target="_blank"  href="https://www.instagram.com/dzelaldupljakk/"></a>
+      <a id="twt" class="fa-brands fa-twitter" target="_blank" href="www.none.com"></a>
+      <a id="lin" class="fa-brands fa-linkedin" target="_blank" href="https://www.linkedin.com/in/dzelal-dupljak-a13180233/"></a>
+      </div>
+  </div>
+  <div class="test">
+
+
+  </div>
+
+  <div class="hederbtn">
+    <div class="tema" id="tema_img">
+      <img  onclick="hideplay()" class="thema" src="ezgif.com-gif-maker.jpg" alt="">
+    </div>
+
+    <div class="logo1">
+      <img src="maja.png" alt="" />
+    </div>
+    <div class="hederbtncentar">
+      <div class="txt">
+        <p style="color: aliceblue; font-size: 20px;">P: 10(89) 273 3627</p>
+      </div>
+      <div id="btn1" class="btn1">
+        <p style=" text-align: center; color: white; font-size: inherit;">Get Free Quote</p>
+      </div>
+      <button id="btn123"   onclick="show_hide()" class="line">
+        <i onclick="show_hide()" id="line" class="fas fa-thin fa-grip-lines"></i>
+      </button>
+    </div>
+  </div>
+  <div class="centar">
+    <div class="centartxt">
+      <div class="txt1">
+        <p>SALT LAKE CITY,UNITED STATES</p>
+      </div>
+      <div class="txt2">
+        <h2>Homeownership <br> never loked so <br> affordable</h2>
+      </div>
+    </div>
+    
+    <div class="playcentar">
+      <div class="txtplay">
+        <p class="playtxt">Play Rell</p>
+
+      </div>
+      <div class="logoplay"  onclick="showplay()">
+        <div id="ytplay" class="play1">
+
+          <i id="play" class="fas fa-thin fa-play"></i>
+
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="down">
+    <div class="levi">
+      <div class="mouse">
+        <i id="mouse" class="fas fa-thin fa-computer-mouse"></i>
+
+      </div>
+
+    </div>
+    <div class="desni">
+      <div class="tekst1">
+        <p>
+          Homeownership never looked so affordable
+        </p>
+      </div>
+      <div class="tekst2">
+        <p>World-class architecture design <br> studio</p>
+
+      </div>
+      
+      <iframe  id="yt" class="yt"  src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
+      
+      </iframe>
+
+    </div>
+  </div>
+  </div>
+  <div class="drugidiv">
+    
+    <h1 class="about">About Us</h1>
+
+    <div  id="jump" class="myBtn">
+
+      <a style="display:flex; flex-direction: column;"  href="#tema_img">
+        
+        <i id="up" class="fas fa-thin fa-angle-up"></i>
+      </a>
+    </div>
+    <div class="textdrugidiv">
+      <div class="levo_1">
+        <p class="levotext">
+          "Belara is a multi-awards winning architectural and design studio operating in the field of interior design
+          and architecture.
+        </p>
+        <img src="momak.jpg" alt="">
+      </div>
+      <div class="desno_1">
+        <p class="levotext1">The studio offers tailor-made solutions for every project that has a unique identity
+          according to its context. Understanding the scope and the projects ambitions, and through listening to
+          clients, users, and contractors help us in creating well-conceived design solutions.</p>
+        <div class="learnbtn">
+          <button id="btn2" class="btnlearn">Learn More</button>
+        </div>
+        <img class="devojka" src="devojka.jpg" alt="">
+
+
+      </div>
+    </div>
+    <div class="treci_div">
+      <h1 class="what">What we Do?</h1>
+      <div class="flex">
+        <div id="slika" class="one">
+          <img src="jedan.jpg" alt="">
+          <h1 id="tx1">Commercial</h1>
+          <p style="color: white;">ARCHITECTURE DESIGN</p>
+          <p></p>
+        </div>
+        <div id="slika" class="two">
+          <img src="dva.jpg" alt="">
+          <h1 id="tx1">Residential</h1>
+          <p style="color: white;">ARCHITECTURE DESIGN</p>
+        </div>
+        <div id="slika" class="three">
+          <img src="tri.jpg" alt="">
+          <h1 id="tx1">Architecture</h1>
+          <p style="color: white;">ARCHITECTURE DESIGN</p>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  <div class="trecidiv">
+    <h1 class="pro">Projects</h1>
+    <div class="trecicentar">
+      <div class="ezicon"> <i id="iconez" class="fas fa-thin fa-angle-left"></i>
+        <i id="iconez" class="fas fa-thin fa-angle-right"></i>
+      </div>
+      <img style="position: relative;" src="ezgif.com-gif-maker (1).jpg" alt="">
+
+    </div>
+  </div>
+  <div class="cetrvtidiv">
+    <div class="dodatak">
+      <h1 class="cettxt">Casa la perla nera residential <br>
+        interior design</h1>
+      <p class="cettxt1">Architecture Design</p>
+      <div class="logodesno">
+        <i id="logodesno" class="fas fa-thin fa-arrow-right"></i>
+      </div>
+    </div>
+    <div class="cetvrticentar">
+      <img src="ezgif.com-gif-maker (2).jpg" alt="">
+      <div class="levi10">
+        <h1 class="naslov1">Why Us?</h1>
+        <p class="naslov2">Belara Nakameguro is located in a <br> quiet location, a 6-minute walk <br> from JR
+          Nakameguro Station and <br> a side street from Komazawa Dori. <br> It has 5 floors above ground, with <br>
+          office space.</p>
+        <div class="learnbtn1">
+          <button id="btn2" class="btnlearn1">Learn More</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="petidiv">
+
+
+    <div class="peticentar">
+      <div class="ezicon"> <i id="iconez" class="fas fa-thin fa-angle-left"></i>
+        <i id="iconez" class="fas fa-thin fa-angle-right"></i>
+      </div>
+      <img class="desinger"
+        src="https://preview.colorlib.com/theme/belara/assets/img/gallery/xfounder-img.png.pagespeed.ic.ZIemzlHPvu.webp"
+        alt="">
+      <p class="dsgtxt">Buck Kinner @Creativ Designer</p>
+    </div>
+
+  </div>
+  <div class="sestidiv">
+    <div class="prv">
+      <img class="kauc" src="ezgif.com-gif-maker (3).jpg" alt="">
+      <h1 class="art">ARCHITECTURE DESIGN</h1>
+      <h2 class="art2">Curating a workplace that inspires <br>
+        all of us</h2>
+        <h3 class="art3">12 Feb 2021</h3>
+        <div class="logodesno2">
+          <i id="strela" class="fas fa-thin fa-arrow-right"></i>
+        </div>
+        
+
+      
+    </div>
+    <div id="ok" class="prv">
+      <img class="kauc" src="ezgif.com-gif-maker (3).jpg" alt="">
+      <h1 class="art">ARCHITECTURE DESIGN</h1>
+      <h2 class="art2">Curating a workplace that inspires <br>
+        all of us</h2>
+        <h3 class="art3">12 Feb 2021</h3>
+        <div class="logodesno2">
+          <i id="strela" class="fas fa-thin fa-arrow-right"></i>
+        </div>
+        
+
+    </div>
+  </div>
+  <div class="poslednjidiv">
+    <div  class="korpa">
+      <div class="pslika">
+        <img  class="pslika1" src="maja.png" alt="" >
+      </div>
+      <div class="ptxt">
+        <h1>Quick Links</h1>
+        <p id="pro"> </a> Work</p>
+        <p id="pro">Servrvices</p>
+        <p id="pro">Products</p>
+        <p id="pro">Tips & Tricks</p>
+      </div>
+      <div class="ptxt2">
+        <h1>Services</h1>
+        <p id="pro">FAQ</p>
+        <p id="pro">Submit Ticket</p>
+        <p id="pro">Contact US</p>
+      </div>
+      <div class="ptxt3">
+        <h1>Newsletter</h1>
+        <p style="color: #9b9b9b;">Subscribe newsletter to get updates.  </p>
+        <input type="Enter your Emile" class="inpt"  placeholder="Enter your email">
+        <button class="btne">
+          <i class="fa-brands fa-artstation"></i>
+        </button>
+        <div class="picon">
+        <a target="_blank" href="https://sr-rs.facebook.com/dzelal.dupljak" > <i id="fb"  class="fa-brands fa-facebook"></i> </a>
+        
+        <a  target="_blank"  href="https://www.instagram.com/dzelaldupljakk/"> <i id="ins" class="fa-brands fa-instagram"></i> </a>
+        <a  target="_blank" href="www.none.com"> <i id="twt" class="fa-brands fa-twitter"></i> </a>
+        <a  target="_blank" href="https://www.linkedin.com/in/dzelal-dupljak-a13180233/">  <i id="lin" class="fa-brands fa-linkedin"></i> </a>
+        </div>
+        
+        
+      </div>
+      
+    </div>
+    
+    <div class="finsh">
+      <p style="color: #9b9b9b;">Copyright ©2022 All rights reserved | This template is made with </p>
+      <i style="color: rgb(235, 185, 92);" class="fa-solid fa-heart"></i>
+      <p style="color: #9b9b9b;">by</p>
+      <p style="color: rgb(235, 185, 92);">Colorlib <a href="https://colorlib.com/"></a> </p>
+    </div> 
+    
+  </div>
+
+  <script>
+    var a;
+    function show_hide ()
+    {
+      if(a==1)
+      {
+        document.getElementById("new1").style.display="none"
+        return a=0;
+      }
+      else
+      {
+        document.getElementById("new1").style.display="block"
+      }
+    }
+
+    var b;
+    function hide ()
+    {
+      if(b==1)
+      {
+        document.getElementById("new1").style.display="block"
+        return b=0;
+      }
+      else
+      {
+        document.getElementById("new1").style.display="none"
+        
+      }
+    }
+
+
+    var p;
+    function showplay ()
+    {
+      if(p==1)
+      {
+        document.getElementById("yt").style.
+        display="none"
+        return p=0;
+      }
+      
+      else
+      {
+        document.getElementById("yt").style.display="block"
+      }
+    }
+
+    var h; 
+
+    function hideplay ()
+    {
+      if(h==1)
+      {
+        document.getElementById("yt").style.display="block"
+        return h=0;
+      }
+      else {
+        document.getElementById("yt").style.display="none"
+      }
+    }
+
+      
+
+  </script>
+
+
+ 
+  
+  
+
+</body>
+
+</html>

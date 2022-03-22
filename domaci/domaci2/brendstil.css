@@ -1,0 +1,127 @@
+.heder1 {
+    background-color:#6366f1 ;
+    height: 65px;
+}
+.naslov {
+    width: 100%;
+    color: #fff;
+    display: flex;
+    font-weight: 600;
+    flex-shrink: 0;
+    position: relative;
+    text-align: start;
+    margin-left: 15px;
+    margin: auto;
+    
+
+}
+.prozor {
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 1000px;
+    height: 400px;
+    
+}
+.jedan {
+    padding: 20px;
+    width: 600px;
+    height: 400px;
+    background-color: white;
+}
+.dva {
+    padding: 20px;
+    width: 600px;
+    height: 400px;
+    background-color: whitesmoke;
+}
+.deskripcije {
+    display: inline-block;
+    width: 100%;
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+
+.linija {
+    margin-top: 0px;
+    border-top: 1px solid black;
+
+}
+ .tekst1 {
+     width: 100%;
+     display: flex;
+     margin-top: -25px;
+ }
+ 
+ .dugme {
+     width: 100%;
+     display: flex;
+
+ }
+ .dugmence {
+     height: 35px;
+     width: 100px;
+     background-color: #6366f1;
+ }
+
+ #heart {
+     margin-top: 10px;
+     margin-left: 10px;
+     
+ }
+
+ .drugiprozor {
+
+     height: 100%;
+    width: 100%;
+ }
+ 
+ .cetristo {
+     text-align: center;
+     margin-top: 50%;
+     font-size: 50px;
+     color: grey;
+ }
+ .naslov1 {
+     width: 70%;
+     margin-top: 20px;
+     display: block;
+     margin-left: 10px;
+ }
+ .view {
+     width: 190px;
+     margin-bottom: 10px;
+     margin-top: 10px; 
+     border-radius: 20px;
+     background-color: #6366f1;
+     border: 2px solid black;
+     
+ }
+ .boje {
+     margin-top: 10px;
+     margin-left: 10px;
+     height: 50px;
+     width: 300px;
+     border-radius: 20px;
+     background-color: #fff;
+
+ }
+
+ .crna {
+     width: 225px;
+     border: 1px solid white;
+     margin-bottom: 10px;
+     border-radius: 20px;
+     margin-left: 15px;
+     margin-top: 10px;
+ }
+  .nula {
+      margin: 5px 0px 0px 10px;
+      width: 40px;
+      height: 20px;
+      border: 1px solid black;
+      border-radius: 70px;
+      background-color: red;
+  }

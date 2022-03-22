@@ -1,0 +1,136 @@
+body {
+    margin:  0 auto;
+     box-sizing: border-box;
+     font-size: 0px;
+}
+
+.kocka {
+    margin-top: 20px;
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+   
+    /* background-color: red; */
+}
+
+.jedan {
+    width: 100%;
+    height: 40%;
+    background-color: #e5e7eb;
+    font-size: 0;
+
+
+}
+.font {
+    font-size: 5rem;
+    text-align: center;
+    padding: 50px;
+    color: rgb(119, 119, 119);
+
+}
+
+.dva {
+    width: 39%;
+    height: 60%;
+    background-color: white;
+    display: inline-block;
+    font-size: 0px;
+    
+}
+
+.tri {
+    width: 60%;
+    height: 60%;
+    background-color: #fff;
+    display: inline-block;
+    font-size: 0px;
+    vertical-align:top;
+    
+    
+    
+}
+
+.tekst {
+    font-size: 0px;
+    
+}
+
+.text {
+    color: gray;
+    font-size: 1.25rem;
+    padding: 10px;
+}
+.ispod {
+width: 100%;
+height: 83px;
+background-color: white;
+
+}
+.learn {
+    color: rgb(93, 93, 223);
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+    margin-left: 10px;
+
+}
+
+#icon {
+    margin-left: 10px;
+    margin-top: 20px;
+    
+   
+}
+
+.vl {
+    border-left: 1px solid gray;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 40px;
+}
+
+#user {
+    font-size: initial;
+    width: 24px !important;
+    height: 24px !important;
+    margin-top: 20%;
+    margin-left: 35%;
+    font-size: 50px;
+}
+
+.profilna {
+
+    width: 150px;
+    height: 100px;
+    background-color: gainsboro;
+    margin: auto;
+    margin-top: 20px;
+    border:  1px solid gainsboro;
+    border-radius: 100px;
+}
+
+.naslov {
+    text-align: center;
+    font-size: 16px; !important;
+    
+    
+}
+
+.line {
+    width: 70px;
+    height: 2px;
+    color: blue;
+    background-color: blue;
+}
+.krajtext {
+    font-size: 16px; !important 
+    
+}
+.textdiv {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 150px;
+    align-items: center;
+}

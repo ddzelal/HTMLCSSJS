@@ -1,0 +1,447 @@
+html {
+  
+
+  
+    
+}
+
+body {
+  background: linear-gradient(-45deg, white, blue, red);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+.container {
+  width: 1100px;
+  height: 1100px;
+  /* background-color: red; */
+  margin: auto;
+  margin-top: 350px;
+  text-align: center;
+  position: fixed;
+  margin-left: 150px;
+}
+
+span {
+  font-size: 54px;
+  font-weight: bolder;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
+  animation-name: rot;
+  animation-name: anim;
+  /* position: fixed;  */
+  margin-left: 10px;
+}
+
+@keyframes tacka {
+  0% {
+    box-shadow: 2px 2px 2px 2px white;
+    background-color: white;
+    transform: rotate(45deg);
+    border-radius: 0 0 0 0;
+  }
+  25% {
+    box-shadow: 2px 2px 2px 2px blue;
+    background-color: blue;
+    transform: rotate(90deg);
+    border-radius: 50% 0 0 0;
+  }
+  50% {
+    box-shadow: 2px 2px 2px 2px red;
+    background-color: red;
+    transform: rotate(135deg);
+    border-radius: 50% 50% 0 0;
+  }
+  75% {
+    box-shadow: 2px 2px 2px 2px white;
+    background-color: white;
+    transform: rotate(180deg);
+    border-radius: 50% 50% 50% 0;
+  }
+  100% {
+    box-shadow: 2px 2px 2px 2px blue;
+    background-color: blue;
+    transform: rotate(225deg);
+    border-radius: 50%;
+  }
+}
+
+@keyframes rot1 {
+  100% {
+    transform: rotate(365deg);
+  }
+}
+
+@keyframes rot {
+  0% {
+    transform: rotate(45deg);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(135deg);
+  }
+  70% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(361deg);
+  }
+}
+
+@keyframes anim {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 50px;
+  }
+  0% {
+    box-shadow: 2px 2px 2px 2px white;
+    color: white;
+    transform: rotate(45deg);
+    border-radius: 0 0 0 0;
+  }
+  25% {
+    box-shadow: 2px 2px 2px 2px blue;
+    color: blue;
+    transform: rotate(90deg);
+    border-radius: 50% 0 0 0;
+  }
+  50% {
+    box-shadow: 2px 2px 2px 2px red;
+    color: red;
+    transform: rotate(135deg);
+    border-radius: 50% 50% 0 0;
+  }
+  75% {
+    box-shadow: 2px 2px 2px 2px white;
+    color: white;
+    transform: rotate(180deg);
+    border-radius: 50% 50% 50% 0;
+  }
+  100% {
+    box-shadow: 2px 2px 2px 2px blue;
+    color: blue;
+    transform: rotate(225deg);
+    border-radius: 50%;
+  }
+}
+
+@keyframes anim2 {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 70px;
+  }
+  0% {
+    box-shadow: 2px 2px 2px 2px white;
+    color: white;
+    transform: rotate(45deg);
+    border-radius: 0 0 0 0;
+  }
+  25% {
+    box-shadow: 2px 2px 2px 2px blue;
+    color: blue;
+    transform: rotate(90deg);
+    border-radius: 50% 0 0 0;
+  }
+  50% {
+    box-shadow: 2px 2px 2px 2px red;
+    color: red;
+    transform: rotate(135deg);
+    border-radius: 50% 50% 0 0;
+  }
+  75% {
+    box-shadow: 2px 2px 2px 2px white;
+    color: white;
+    transform: rotate(180deg);
+    border-radius: 50% 50% 50% 0;
+  }
+  100% {
+    box-shadow: 2px 2px 2px 2px blue;
+    color: blue;
+    transform: rotate(225deg);
+    border-radius: 50%;
+  }
+}
+@keyframes anim3 {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 110px;
+  }
+  0% {
+    box-shadow: 2px 2px 2px 2px white;
+    color: white;
+    transform: rotate(45deg);
+    border-radius: 0 0 0 0;
+  }
+  25% {
+    box-shadow: 2px 2px 2px 2px blue;
+    color: blue;
+    transform: rotate(90deg);
+    border-radius: 50% 0 0 0;
+  }
+  50% {
+    box-shadow: 2px 2px 2px 2px crimson;
+    color: brown;
+    transform: rotate(135deg);
+    border-radius: 50% 50% 0 0;
+  }
+  75% {
+    box-shadow: 2px 2px 2px 2px white;
+    color: white;
+    transform: rotate(180deg);
+    border-radius: 50% 50% 50% 0;
+  }
+  100% {
+    box-shadow: 2px 2px 2px 2px blue;
+    color: blue;
+    transform: rotate(225deg);
+    border-radius: 50%;
+  }
+}
+
+.L {
+  font-size: 170px;
+  font-weight: 600;
+  -webkit-text-stroke: 1px white;
+  -webkit-text-fill-color: transparent;
+  line-height: 1;
+  animation-name: rot1;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 1s;
+  position: absolute;
+  left: 350px;
+  top: -70px;
+  /* font-size: 100px; */
+}
+.O {
+  animation-name: anim;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 1s;
+  position: relative;
+}
+
+.A {
+  animation-name: anim2;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 1s;
+  position: relative;
+}
+
+.D {
+  animation-name: anim3;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 1s;
+  position: relative;
+}
+
+.I {
+  animation-name: anim2;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 1s;
+  position: relative;
+}
+
+.N {
+  animation-name: anim;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 1s;
+  position: relative;
+}
+
+.G {
+  font-size: 170px;
+  font-weight: 600;
+  -webkit-text-stroke: 1px red;
+  -webkit-text-fill-color: transparent;
+  line-height: 1;
+  animation-name: rot1;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 1s;
+  position: absolute;
+  top: -70px;
+  left: 650px;
+}
+
+.tacka1 {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: blue;
+  position: absolute;
+  left: 860px;
+  top: 65px;
+  animation-name: tacka;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 0.2s;
+}
+
+.tacka2 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: blue;
+  position: absolute;
+  left: 880px;
+  top: 60px;
+  animation-name: tacka;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 0.4s;
+}
+.tacka3 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: blue;
+  position: absolute;
+  left: 910px;
+  top: 55px;
+  animation-name: tacka;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 0.6s;
+}
+.tacka4 {
+  width: 40px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: blue;
+  position: absolute;
+  left: 950px;
+  top: 40px;
+  animation-name: tacka;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 0.8s;
+}
+.tacke {
+  position: absolute;
+  top: -50px;
+  left: -65px;
+  
+}
+.tacke2 {
+  position: absolute;
+  left: 150px;
+  
+}
+
+#dragon {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  left: 280px;
+  top: 100px;
+  animation-name: dragonanim;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 1s;
+  
+}
+
+#dragon1 {
+  color: blue;
+  font-size: 30px;
+  position: absolute;
+  left: 280px;
+  top: 100px;
+  animation-name: dragonanim1;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 1s;
+  
+}
+
+#dragon2 {
+  color:red ;
+  font-size: 30px;
+  position: absolute;
+  left: 280px;
+  top: 100px;
+  
+  animation-name: dragonanim2;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 1s;
+  
+}
+
+@keyframes dragonanim {
+
+  from {
+    left: 300px;
+  }
+  to {
+    left: 750px;
+  }
+
+  
+}
+
+@keyframes dragonanim1 {
+
+  from {
+    left: 350px;
+  }
+  to {
+    left: 750px;
+  }
+
+  
+}
+@keyframes dragonanim2 {
+
+  from {
+    left: 400px;
+  }
+  to {
+    left: 750px;
+  }
+
+  
+}
+
+.D {
+  font-size: 170px;
+  font-weight: 600;
+  -webkit-text-stroke: 1px blue;
+  -webkit-text-fill-color: transparent;
+  line-height: 1;
+  animation-name: rot1;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
+  position: absolute;
+  left: 500px;
+  top: -70px;
+  /* font-size: 100px; */
+}

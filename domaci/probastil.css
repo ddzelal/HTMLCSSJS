@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.korpa {
+    width: 100%;
+    height: 200px;
+    background-color: red;
+}
+
+.one {
+    width: 100%;
+    height: 90px;
+    background-color: aliceblue;
+    display: flex;
+    box-sizing: border-box;
+    
+}
+.naslov {
+    margin-left: 20px;
+    width: 30%;
+    align-items: center;
+    align-self: center;
+}
+.vreme {
+    width: 20%;
+    background-color: white;
+}
+#vreme {
+    margin-top: 20px;
+
+}
+
+.txt1 {
+    display: inline-block;
+    margin-left: 30px;
+}
+.prvi {
+    color: greenyellow;
+}
+.two {
+    display: flex;
+    width: 50%;
+}
+.txt2 {
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    gap: 50px;
+    
+}
+
+.make {
+    display: flex;
+    width: 310px;
+    margin-left: 100px;
+    background-color: greenyellow;  
+    
+     
+    
+}
+.mak {
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    margin: auto;
+}
