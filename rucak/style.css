@@ -836,13 +836,18 @@ color: white;
   background-color: transparent;
   color: white;
  text-decoration: auto;
-  transition: 1s;
+  transition: all 1s;
   cursor: pointer;
+  
 }
 
 #ins:hover {
   color: rgb(235, 185, 92);
-  transform: rotateY(180deg);
+     webkit-transform: rotateZ(180deg);
+    -moz-transform: rotateZ(180deg);
+    -ms-transform: rotateZ(180deg);
+    -o-transform: rotateZ(180deg);
+    transform: rotateZ(180deg);
   
 }
 
@@ -852,6 +857,7 @@ color: white;
    text-decoration: auto;
   transition: 1s;
   cursor: pointer;
+  
 }
 
 #twt:hover {
@@ -1010,9 +1016,10 @@ color: white;
 }
 
 .jmp1 {
-  text-decoration: none; !important
-  margin: 100px;
+  text-decoration: none; 
+  /* margin: 100px; */
 }
+
 
 .yt {
   position: absolute;
