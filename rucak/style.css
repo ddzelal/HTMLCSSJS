@@ -612,10 +612,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  place-items: center;
   width: 500px;
   height: 500px;
   /* background-color: red;  */
-  left: 550px;
+  left: 670px;
   
   position: relative; 
 }
@@ -978,6 +979,7 @@ color: white;
     box-shadow: 0 0 10px 3px rgb(108 98 98 / 20%);
     z-index: 1;
     cursor:pointer;
+    /* text-decoration: auto; */
   
 }
 
@@ -993,10 +995,10 @@ color: white;
 #up {
   font-size: 23px;
   background-color: transparent;
-    color: white;
-   text-decoration: auto;
+  color: white;
+  text-decoration: auto;
   position: relative;
-  margin-top: 23px;
+  margin-top: -15px;
   animation-name: MoveUpDown;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -1005,6 +1007,11 @@ color: white;
   
    
 
+}
+
+.jmp1 {
+  text-decoration: none; !important
+  margin: 100px;
 }
 
 .yt {
