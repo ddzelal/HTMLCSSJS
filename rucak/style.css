@@ -829,7 +829,11 @@ color: white;
 }
 #fb:hover {
   color: rgb(235, 185, 92);
-  transform: rotateY(180deg);
+  /* twebkit-transform: rotateZ(180deg); */
+  -moz-transform: rotateZ(180deg);
+  -ms-transform: rotateZ(180deg);
+  -o-transform: rotateZ(180deg);
+  transform: rotateZ(180deg);
 }
 
 #ins {
@@ -843,7 +847,7 @@ color: white;
 
 #ins:hover {
   color: rgb(235, 185, 92);
-     webkit-transform: rotateZ(180deg);
+     /* webkit-transform: rotateZ(180deg); */
     -moz-transform: rotateZ(180deg);
     -ms-transform: rotateZ(180deg);
     -o-transform: rotateZ(180deg);
@@ -862,7 +866,11 @@ color: white;
 
 #twt:hover {
   color: rgb(235, 185, 92);
-  transform: rotateY(180deg);
+  /* webkit-transform: rotateZ(360deg); */
+    -moz-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg);
+    -o-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
 }
 
 #lin {
@@ -875,7 +883,11 @@ color: white;
 
 #lin:hover{
   color: rgb(235, 185, 92);
-  transform: rotateY(180deg);
+  /* webkit-transform: rotateZ(180deg); */
+    -moz-transform: rotateZ(180deg);
+    -ms-transform: rotateZ(180deg);
+    -o-transform: rotateZ(180deg);
+    transform: rotateZ(180deg);
 }
 
 .finsh {
