@@ -1054,87 +1054,6 @@ color: white;
   display: none;
 }
 
-.login {
-  
-  margin: auto;
-  margin-top: 50px;
-  display: flex;
-  flex-direction: column;
-  width: 500px;
-  height: 600px;
-  background-image: url(https://preview.colorlib.com/theme/belara/assets/img/gallery/xprojects1.jpg.pagespeed.ic.n-_-GKD9i9.webp);
-  gap: 20px;
-  
-  /* grid-template-rows:auto auto auto; */
-}
-
-#loginlogo {
-  padding: 20px;
-  float: right;
-
-
-
-
-
-
-
-
-
-}
-.one {
-  background-image: url(https://preview.colorlib.com/theme/belara/assets/img/gallery/xprojects1.jpg.pagespeed.ic.n-_-GKD9i9.webp);
-  height: 90px;
-  
-}
-
-#user {
-  font-size: 60px;
-  /* margin-top: 20px; */
-  margin-left: 220px;
-  background-color: rgb(235, 185, 92);
-  border: 20px solid rgb(235, 185, 92);
-  border-radius: 50%;
-  color: rgb(100, 74, 25);
-}
-.two {
-  margin-top: 
-    0px;
-  text-align: center;
-}
-.three {
-  text-align: center;
-}
-
-.emile {
-  width: 80%;
-  height: 50px;
-  text-align: center;
-  font-size: 20px;
-  background-color: rgb(108 98 98 / 20%);
-  
-}
-
-.password {
-  width: 80%;
-  height: 50px;
-  text-align: center;
-  font-size: 20px;
-  background-color: rgb(108 98 98 / 20%);
-}
-
-.check {
-  width: 30%;
-  height: 30px;
-  text-align: center;
-  font-size: 20px;
-  background-color: rgb(108 98 98 / 8   80%);
-  opacity: 0.7;
-}
-.for {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
 
 #momak{
   transition: 1s;
@@ -1154,9 +1073,7 @@ color: white;
 }
 
 
-body{
-  background-image: url(https://preview.colorlib.com/theme/belara/assets/img/hero/h1_hero1.jpg.webp);
-}
+
 
 
 

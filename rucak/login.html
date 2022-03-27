@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
     
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleregistar.css">
     
     <title>Document</title>
+    
 </head>
+
 <body >
     <!-- <div class="bck">
         <img src="ezgif.com-gif-maker (1).jpg" alt="">
@@ -24,21 +27,32 @@
         <!-- <div class="userr">
             <i id="user" class="fa-solid fa-user-check"></i> 
         </div> -->
-        <div class="two">
-            <input  type="email" class="emile"  placeholder="Emile"  type="Emile">
-            
-            
-        </div>
-        <div class="three">
-            <input type="password" class="password" placeholder="Password" type="password">
-            
-        </div>
-        <div class="for">
-            <input class="check"  value="Login!" type="button">
-            <input class="check"  value="Register!" type="button">
-        </div>
+        <form id="form" >
+
+            <div class="two">
+                <input  type="email" id="email" class="emile"  placeholder="Email"  >
+                
+                
+            </div>
+            <div class="three">
+                <input type="password" id="password" class="password" placeholder="Password" >
+                
+            </div>
+            <div class="for">
+                <button class="check" id="loginBtn"   type="submit">
+                    Login
+                </button>
+                <button class="check"  id="registerBtn" type="submit">
+                    Register
+                </button>
+                <button class="check"  id="deleteBtn" type="submit">
+                    Delete
+                </button>
+            </div>
+        </form>
         <div class="five"></div>
     </div>
-    
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-firestore.js"></script>  <script  src="./app.js"></script>
 </body>
 </html>
