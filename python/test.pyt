@@ -1,7 +1,7 @@
 from ctypes.wintypes import PINT
 from json.tool import main
 
-from pkg_resources import IMetadataProvider
+# from pkg_resources import IMetadataProvider
 
 ime = "Dzelal"
 print(ime)
@@ -10,4 +10,6 @@ y = 4
 a = x + y 
 
 print (ime , a)
+
+
 

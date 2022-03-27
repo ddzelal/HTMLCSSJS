@@ -17,7 +17,7 @@ body {
 .cont1 {
     
     width: 350px;
-    height: 200px;
+    height: 150px;
     /* background-color: red; */
     border-bottom: 1px solid grey;
     margin-top: 50px;
@@ -27,7 +27,7 @@ body {
 
 .cont2 {
     width: 800px;
-    height: 200px;
+    height: 150px;
     /* background-color: aliceblue; */
     border-bottom: 1px solid grey;
     margin-top: 50px;
@@ -62,14 +62,17 @@ body {
 
     .cont1 {
         height: 50px;
-        width: 420px;
+         width: 420px;
         
+         display: block;
+        margin: 0%;
     }
 
     .cont2 {
         height: 100px;
         width: 420px;
-       
+        display: block;
+       margin: 0%;
     }
 }
 

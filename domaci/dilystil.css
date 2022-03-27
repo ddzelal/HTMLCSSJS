@@ -1,0 +1,80 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.hed {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    position: fixed;
+    z-index: 122;
+}
+
+.meni {
+    width: 50px;
+    height: 100%;
+    background-color: aquamarine;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+
+.cont {
+    
+    width: 100%;
+    height: 550px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    word-wrap: inherit;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.kocka1 {
+    width: 250px;
+    height: 400px;
+    background-color: blueviolet;
+
+}
+
+
+.kocka2 {
+    width: 250px;
+    height: 400px;
+    background-color: blueviolet;
+
+}
+.kocka3 {
+    width: 250px;
+    height: 400px;
+    background-color: blueviolet;
+
+}
+.kocka4 {
+    width: 250px;
+    height: 400px;
+    background-color: blueviolet;
+
+}
+
+@media only screen and (max-width: 749px) {
+    .meni {
+        
+        width: 100%;
+        height: 50px;
+        display: block;
+        top: 600px;
+        
+        
+    }
+ 
+
+
+    
+  }
