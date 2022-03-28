@@ -7,7 +7,6 @@ const deleteBtn = document.getElementById('deleteBtn')
 
 
 
-
 const firebaseConfig = {
     apiKey: "AIzaSyBw8M82EEcQCRZgjQdRDXM0ah_XR2Xlbqs",
     authDomain: "project1-4f498.firebaseapp.com",
@@ -92,7 +91,7 @@ loginBtn.addEventListener("click",(e)=>{
     })
 
     if(isValid){
-        window.location.replace('/rucak/')
+        window.location.replace('/sajtNit/')
     }else{
         alert("Login nije validan")
     }
