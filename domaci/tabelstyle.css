@@ -1,0 +1,201 @@
+body {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+background-color: #99c1f1;
+}
+
+.container {
+    margin: auto;
+    margin-top: 50px;
+    width: 1100px;
+    height: 600px;
+    /* background-color: red; */
+    border-radius: 20gitpx;
+}
+
+.heder {
+    width: 100%;
+    height: 70px;
+    background-color: #435d7d;
+    display: flex;
+    place-items: center;
+    position: relative;
+    
+    
+}
+
+.heder_naslov {
+    color: white;
+    margin-left: 20px;
+    font-weight: 300;
+}
+
+.heder_btn {
+    width: 400px;
+    height: 100% ;
+    /* background-color: aqua; */
+    display: flex;
+    place-items: center;
+    position: absolute;
+    right: 20px;
+    
+}
+
+.btn_delete {
+    width: 25%;
+    height: 60%;
+    background-color: red;
+    
+}
+
+.btn_add {
+    width: 64%;
+    height: 60%;
+    background-color: #435d7d;
+}
+
+.delete {
+width: 100%;
+height: 100%;
+display: flex;
+place-items: center;
+justify-content: space-around;
+color: white;
+background-color: red;
+border: none;
+}
+
+.delete:hover {
+    opacity: 0.7;
+}
+
+.add:hover {
+    opacity: 0.7;
+}
+#minus {
+    font-size: 20px;
+}
+
+.add {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    place-items: center;
+    justify-content: space-around;
+    color: white;
+    background-color: green;
+    border: none;
+    float: right;
+    }
+
+    #plus {
+        font-size: 20px;
+    }
+
+    .h_one {
+        width: 250px;
+    }
+
+
+    .icon{
+        display: flex;
+        gap: 15px;
+        height: 100%;
+        align-items: center;
+        /* border: none; */
+        
+    }
+
+    th {
+        font-size: 20px;
+    }
+
+    .tabela {
+        height: 80%;
+        width: 100%;
+        
+    }
+
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      td, th {
+        /* border-top : 3px solid #dddddd; */
+        /* border-bottom : 1px solid #dddddd; */
+        /* text-align: left; */
+        /* padding: 8px; */
+      }
+
+      tr {
+          background-color: white;
+          border-top: 2px solid #435d7d;
+          font-family: 'Courier New', Courier, monospace;
+          
+      }
+
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+
+      tr:hover {
+      opacity: 0.7;
+      }
+
+      .trone {
+          font-weight: 100;
+          font-family: 'Courier New', Courier, monospace;
+      }
+
+      .fa-pencil {
+          color: orange;
+          cursor: pointer;
+      }
+
+     .fa-trash-can {
+         color: red;
+         cursor: pointer;
+     }
+      
+
+     .trtwo th {
+         font-size: 12px;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         font-weight: 100;
+     }
+
+     .end {
+         width: 100%;
+         height: 50px;
+         background-color: white;
+         /* background-color: #435d7d; */
+     }
+
+     .end {
+         display: flex;
+         place-items: center;
+         justify-items: center;
+     }
+
+     .rigth {
+         width: 50%;
+         float: right;
+     }
+
+     .left {
+         margin-left: 30px;
+         width: 230%;
+         float: left;
+     }
+
+     #br:hover {
+         background-color: wheat;
+         cursor: pointer;
+     }
+
+     .endtxt:hover {
+         text-decoration: underline;
+     }
