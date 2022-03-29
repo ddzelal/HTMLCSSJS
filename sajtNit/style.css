@@ -10,6 +10,7 @@ body {
   /* background-color: aqua; */
   /* overflow: hidden; */
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 .heder {
@@ -161,6 +162,7 @@ body {
   opacity: 1;
   top: 60px;
   left: 0px;
+  height: 100%;
   
 }
 
@@ -332,6 +334,7 @@ body {
   font-family: inherit;
   font-size: 50px;
   font-weight: 100;
+  margin: auto;
 }
 
 .textdrugidiv {

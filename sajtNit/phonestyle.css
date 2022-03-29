@@ -1,0 +1,122 @@
+body {
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container_heder {
+    max-width: 480px;
+    height: 50px;
+    background-color: #333;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+
+}
+
+.logo_heder {
+    height: 30px;
+    
+}
+.one {
+    max-width: 480px;
+    height: 233px;
+    background-image:url(ezgif.com-gif-maker.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.one_txt {
+    text-align: center;
+}
+
+.one_txt1 {
+    font-size: 10px;
+    color: white;
+}
+
+.one_txt2 {
+    font-size: 10px;
+    color: white;
+}
+
+
+.one_end {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(235, 185, 92);
+    float: right;
+    margin-top: 67px;
+    display: flex;
+
+}
+.end_txt {
+    font-size: 10px;
+    color: white;
+    margin: 5px;
+}
+
+.two {
+    max-width: 480px;
+    height: 1000px;
+    background-color: rgb(32, 18, 46);
+    /* position: absolute; */
+    
+}
+
+.aboutdiv {
+    text-align: center ;
+    position: relative;
+    top: 20px;
+    
+}
+
+.abouttxt {
+    font-size: 20px;
+    color: white;
+    
+}
+.twoflex {
+    width: 480px;
+    /* height: 300px; */
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 20px; */
+}
+
+.imgmomak {
+    height: 200px;
+    width: 200px;
+}
+
+span {
+    width: 300px;
+    margin-top: 10px;
+    color: white;
+}
+
+.btnlearn {
+    width: 110px;
+  height: 30px;
+  background-color: transparent;
+  text-align: center;
+  vertical-align: middle;
+  /* margin-right: 50px; */
+  border: 1px solid rgb(235, 185, 92);
+  color: white;
+  }
+
+  .imgmomak {
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+
+  .twotwo {
+      max-width: 480px;
+      height: 400px;
+      color: aliceblue;
+  }
