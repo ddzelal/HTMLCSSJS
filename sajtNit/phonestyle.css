@@ -116,7 +116,108 @@ span {
 
 
   .twotwo {
-      max-width: 480px;
-      height: 400px;
-      color: aliceblue;
+      /* max-width: 480px; */
+      /* height: 400px; */
+      /* color: aliceblue; */
   }
+
+  .whattxt {
+    color: white;
+    text-align: start;
+    font-weight: 200;
+    margin-left: 30px; }
+
+    .twoflexcenter {
+        width: 100%;
+        height: 183px;
+        /* background-color: red; */
+        display: flex;
+        justify-content: space-around;
+        place-items: center;
+    }
+
+    .imgtwo {
+        width: 30%;
+        height: 60%;
+    }
+
+    .threediv {
+        width: 480px;;
+        height: 240px;
+        background-color: rgb(32, 18, 46);
+    }
+
+    .imgthree {
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+    }
+
+    .cetvrticentar {
+        display: flex;
+    }
+
+    .levi10 {
+        margin-left: 25px;
+    }
+
+    .btnlearn1 {
+        width: 100px;
+        height: 20px;
+        background-color: transparent;
+        text-align: center;
+        vertical-align: middle;
+        margin-right: 50px;
+        border: 1px solid orange;
+        color: orange;
+    }
+
+    #petidiv {
+        width: 480px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        background-color: #333;        
+    }
+
+    .desinger {
+        width: 70px;
+        height: 70px;
+        margin-top: 20px;
+    }
+
+    .dsgtxt {
+        width: 480px;
+        height: 50px;
+        display: flex;
+        /* text-align: center; */
+        background-color: #333;
+        justify-content: center;
+        }
+
+        .txtdsg {
+            text-align: center;
+        }
+
+        .sestidiv {
+            width: 480px;
+            height: 250px;
+        }
+
+        .prv {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .kauc {
+            width: 200px;
+            height: 200px;
+        }
+
+        .sestidiv {
+            width: 480px;
+            height: 250gpx;
+            background-color: rgb(32, 18, 46);
+            display: inline-block;
+        }
+      
