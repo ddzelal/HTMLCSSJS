@@ -123,12 +123,7 @@ border: none;
         width: 100%;
       }
       
-      td, th {
-        /* border-top : 3px solid #dddddd; */
-        /* border-bottom : 1px solid #dddddd; */
-        /* text-align: left; */
-        /* padding: 8px; */
-      }
+      
 
       tr {
           background-color: white;
