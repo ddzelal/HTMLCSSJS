@@ -1,0 +1,22 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+/* #test{
+    margin-top: 100px;
+} */
+
+#rowtest {
+    height: 400px;
+}
+
+#btntst{
+ 
+    width: 300px;
+    margin-top: 150px;
+    margin-left: 50px;
+    
+}
