@@ -4,6 +4,8 @@ const passwordInput = document.getElementById("password")
 const loginBtn = document.getElementById('loginBtn')
 const registerBtn = document.getElementById('registerBtn')
 const deleteBtn = document.getElementById('deleteBtn')
+const showUsersBtn = document.getElementById("showUsersBtn")
+const usersContainer = document.getElementById("users")
 
 
 
@@ -123,4 +125,24 @@ deleteBtn.addEventListener("click",(e)=>{
           alert("User nije pronadjen")
       }
   });
+})
+
+let counter = 0
+showUsersBtn.addEventListener("click",()=>{
+  if(counter===0){
+
+    firestore.collection("fomData").get().then(querySnapshot=>{
+      querySnapshot.forEach(user=>{
+        const el = document.createElement("p")
+        el.innerText = user.data().email
+        users.appendChild(el)
+      })
+    })
+    counter=1
+
+  }else{
+    users.innerHTML=""
+    counter=0
+  }
+  
 })
