@@ -10,4 +10,4 @@ if broj % 2 == 0:
         print("Broj nijed vedci od")    
 else:
     if broj>= 5 and broj<=30:
-
+        print()
