@@ -6,11 +6,11 @@ body {
 
 .container {
     width: 100%;
-    height: 800px;
+    height: 100vh;
     background-color: red;
     display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: AUTO;
+    grid-template-columns: 350px auto;
+    grid-template-rows: 50px auto;
     grid-template-areas: 
     "heder heder heder"
     "saidbar center center"
@@ -19,10 +19,31 @@ body {
 
 .heder {
     grid-area: heder;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
-.saibar {
+
+.hed {
+    width: 100%;
+    height: 100%;
+    position: sticky;
+    top: 0px;
+}
+.saidbar {
     grid-area: saidbar;
-    background-color: aliceblue;
+    background-color: rgb(26, 125, 212);
+    
+}
+
+.meni {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 90%;
+    background-color: navy;
+    margin: auto;
 }
 .center {
     grid-area: center;
