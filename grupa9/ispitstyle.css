@@ -1,0 +1,109 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: auto;
+    width: 1200px;
+    height: 800px;
+    /* background-color: blue; */
+    display: flex;
+}
+
+.levo {
+    width: 49%;
+    height: 800px;
+    /* background-color: rebeccapurple; */
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-columns: 200px 200px;
+    gap: 20px;
+    grid-template-areas: 
+    "item1 item2"
+    "item3 item4"
+    "item5 item6"
+    "item7 item7"
+    
+}
+
+.desno {
+    width: 49%;
+    height: 800px;
+    /* background-color: red; */
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-columns: 200px 200px;
+    gap: 20px;
+    grid-template-areas: 
+    "prvi prvi"
+    "dva tri"
+    "dva tri"
+    "dva cetri"
+}
+.one {
+    grid-area: prvi;
+    background-color: rgb(95, 237, 95);
+}
+
+.two {
+    grid-area: dva;
+    background-color: green;
+}
+
+.three {
+    grid-area: tri;
+    background-color: orange;
+}
+
+.for {
+    grid-area: cetri;
+    background-color: rgb(95, 237, 95);
+}
+
+.kocka1 {
+    grid-area: item1;
+    background-color: green;
+}
+.kocka2 {
+    grid-area: item2;
+   background-color: rgb(159, 226, 159)
+    
+}
+
+.kocka3 {
+    grid-area: item3;
+  
+    background-color: orange;
+    
+}
+
+.kocka4 {
+    grid-area: item4;
+   
+    background-color: green;
+
+    
+}
+
+.kocka5 {
+    grid-area: item5;
+   
+    background-color: rgb(159, 226, 159);
+}
+
+.kocka6{
+    grid-area: item6;
+    background-color: orange;
+}
+
+.kocka6 {
+    grid-area: item6;
+    background-color:orange;
+}
+
+.kocka7{
+    grid-area: item7;
+    background-color: rgb(159, 226, 159);
+}
