@@ -1,5 +1,7 @@
 godine = prompt("Unesite vase godine");
 starost  = 2022 - godine;
+
+console.log("Vi ste rodjeni",godine,"godine i imate",starost, "godine");
 if (godine % 400 === 0){
     console.log("Vasa godina rodjenja je prestupna");
 }
@@ -9,13 +11,12 @@ else if(godine % 100!=0 && godine%4===0){
 else{
     console.log("Vasa godina rodjenja nije prestupna");
 }
-console.log("Vi ste rodjeni",godine,"godine i imate",starost, "godine");
 
 const var1 = prompt ("Unesite mesec rodjenja i dan rodjenja");
 
  var2 = var1.split(".");
 
- meseci = [
+ const meseci = [
     [1,"januar"],
     [2,"februar"],
     [3,"mart"],
@@ -29,6 +30,16 @@ const var1 = prompt ("Unesite mesec rodjenja i dan rodjenja");
        [11,"novembar"], 
        [12,"decemabarar"]
 ]
+
+// for (i in range(12)){
+//     if (var2[0] === meseci[i][0]){
+//         console.log(meseci[i][1])
+//     }
+// }
+
+meseci.forEach((element) => {
+    console.log(element);
+});
 
 
 // array1.forEach(element => console.log(element));
