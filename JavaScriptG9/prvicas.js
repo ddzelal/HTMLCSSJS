@@ -14,7 +14,17 @@ else{
 
 const var1 = prompt ("Unesite mesec rodjenja i dan rodjenja");
 
+
  var2 = var1.split(".");
+ if(var2[0] > 12){
+     console.log("Nepostojeci mesec")
+ }
+ else if(var2[1] > 31){
+     console.log("Mesec nema toliko dana")
+ }
+ else{
+    console.log ("Datum vaseg rodjenja je",var2[0],"mesec","i dan",var2[1]);
+ }
 
  const meseci = [
     [1,"januar"],
@@ -31,26 +41,34 @@ const var1 = prompt ("Unesite mesec rodjenja i dan rodjenja");
        [12,"decemabarar"]
 ]
 
-// for (i in range(12)){
+meseci.forEach(function(element) {
+    for(let i=0; i<element.length; i++){
+        if(var2[0] === element[i][0]){
+            console.log(element[i][1])
+        }
+    }
+    // console.log(element);
+});
+
+// for ( let i=0 ; i < meseci.length ; i++){
 //     if (var2[0] === meseci[i][0]){
 //         console.log(meseci[i][1])
 //     }
 // }
 
-meseci.forEach((element) => {
-    console.log(element);
-});
-
-
-// array1.forEach(element => console.log(element));
-// NE ZNAM
+// meseci.forEach((element) => {
+//     console.log(element);
+// });
 
 
 
-console.log(meseci);
+
+
+
+// console.log(meseci);
  
  
 
- console.log(var2);
+//  console.log(var2);
 
- console.log ("Datum vaseg rodjenja je",var2[0],"mesec","i dan",var2[1]);
+ 
