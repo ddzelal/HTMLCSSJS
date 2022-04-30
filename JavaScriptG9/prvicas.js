@@ -27,6 +27,25 @@ const var1 = prompt ("Unesite mesec rodjenja i dan rodjenja");
     console.log ("Datum vaseg rodjenja je",var2[0],"mesec","i dan",var2[1]);
  }
 
+ t_dan =2;
+ t_mesec=2;
+ t_godina=2022;
+
+ godina = 1999;
+ mesec = 2;
+ dan = 8;
+
+ if(dan <=t_dan){
+     console.log("imam", t_dan - dan,"dana")
+ }
+ else{
+     t_mesec-=1;
+     console.log("imam",t_dan + 30 - dan,"dana")
+ }
+
+ 
+
+
  const meseci = [
     [1,"januar"],
     [2,"februar"],
