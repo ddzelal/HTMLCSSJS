@@ -6,6 +6,7 @@ if (godine % 400 === 0){
     console.log("Vasa godina rodjenja je prestupna");
 }
 else if(godine % 100!=0 && godine%4===0){
+
     console.log("Vasa godina rodjenja je prestupna");
 }
 else{
