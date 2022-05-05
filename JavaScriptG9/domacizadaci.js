@@ -30,6 +30,8 @@ for(i=1; i<=ispis; i++){
 }
 
 
+parni_br = []
+neparni_br = []
 proizvoljanbroj = 21;
 parni=0;
 neparani=0;
@@ -39,15 +41,19 @@ for(i=1; i<=proizvoljanbroj; i++){
     if(i%2===0){
         parni = parni +i;
         console.log(i,"proizvod je paran i zbir mu je",parni);
+        parni_br.push(i)
     }
     else if (i%2===1)
     {
         neparani = neparani +i;
         console.log(i,"proizvod je neparan i zbir mu je ",neparani);
+        neparni_br.push(i)
     }
 
 
 }
+
+    console.log("parni brojevi su",parni_br,"Neparni brojevi su:",neparni_br);
 
 nazad = 8;
 
