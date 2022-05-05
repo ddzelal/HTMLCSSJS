@@ -42,9 +42,15 @@ for(i=1; i<=proizvoljanbroj; i++){
     }
     else if (i%2===1)
     {
-        neparani = neparani +1;
+        neparani = neparani +i;
         console.log(i,"proizvod je neparan i zbir mu je ",neparani);
     }
 
 
+}
+
+nazad = 8;
+
+for(i=8; i>=1; i--){
+    console.log(i);
 }
