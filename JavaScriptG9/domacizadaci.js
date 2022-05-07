@@ -44,7 +44,7 @@ switch(odabir_p){
 
     break;
 
-    case 4:
+    case 10:
         parni_br = []
 neparni_br = []
 broj_br = prompt("Koliko zelis brojeva?")
@@ -66,6 +66,7 @@ for(i=1; i<=parsBr; i++){
         console.log(i,"proizvod je neparan i zbir mu je ",neparani);
         neparni_br.push(i)
     }
+    
 
 
 }
