@@ -1,10 +1,12 @@
 
 
+odabir = prompt("Koji zadatak zelis?");
+odabir_p = parseInt(odabir)
 
 
+switch(odabir_p){
 
-switch(meni = prompt("koji zadatak zelis")){
-    case 'x': 
+    case 1: 
 
         for(i=1; i <=3; i++){
 
@@ -19,7 +21,7 @@ switch(meni = prompt("koji zadatak zelis")){
 
             }
     break;
-     case 'y':
+     case 2:
         broj = 20;   //ispisi sve parne brojeve 
 
         for (i=1; i<=broj; i++)
@@ -32,7 +34,7 @@ switch(meni = prompt("koji zadatak zelis")){
         }
     break;        
 
-    case 'z':
+    case 3:
 
         ispis = 10;  // ispis svih brojeva do unetog broja
         for(i=1; i<=ispis; i++){
@@ -41,7 +43,7 @@ switch(meni = prompt("koji zadatak zelis")){
 
     break;
 
-    case 'w':
+    case 4:
         parni_br = []
 neparni_br = []
 proizvoljanbroj = 21;
@@ -67,13 +69,13 @@ for(i=1; i<=proizvoljanbroj; i++){
 
     console.log("parni brojevi su",parni_br,"Neparni brojevi su:",neparni_br);
     break;
- case 'p':
+ case 5:
 
 nazad = 8;
 
 for(i=8; i>=1; i--){
     console.log(i);
-}
+    }
 
     
     break;
