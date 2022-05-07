@@ -86,6 +86,14 @@ for(i=8; i>=1; i--){
 
 }
 
+unBroj = Number(prompt("Unesi broj"))
+
+for (i=0; i<=unBroj; i++){
+    if(broj % i === 0){
+        console.log(i);
+    }
+    
+}
 
 
 
