@@ -7,6 +7,7 @@ odabir_p = parseInt(odabir)
 switch(odabir_p){
 
     case 1: 
+        alert('Odabir zadatka 1');
 
         for(i=1; i <=3; i++){
 
@@ -46,11 +47,13 @@ switch(odabir_p){
     case 4:
         parni_br = []
 neparni_br = []
-proizvoljanbroj = 21;
+broj_br = prompt("Koliko zelis brojeva?")
+parsBr = parseInt(broj_br)
+// proizvoljanbroj = 21;
 parni=0;
 neparani=0;
 
-for(i=1; i<=proizvoljanbroj; i++){
+for(i=1; i<=parsBr; i++){
 
     if(i%2===0){
         parni = parni +i;
