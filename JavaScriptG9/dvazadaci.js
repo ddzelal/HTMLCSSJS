@@ -48,6 +48,23 @@ switch(unos){
 
         break;
 
+    case 3:
+        brojac  = Number(prompt("Koliko zelis ucenika?"))
+        ucenici=[];
+
+        for(i=0; i<brojac; i++){
+            unos_imena = prompt("Unesite ucenike")
+            ucenici.push(unos_imena)
+        }
+        
+        console.log(ucenici)
+
+       
+
+
+
+        break;
+
 
 
 
