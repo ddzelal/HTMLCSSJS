@@ -57,6 +57,8 @@ switch(unos){
             ucenici.push(unos_imena)
         }
         
+        // ucenici.random()
+        // var item = ucenici[Math.floor(Math.random() * ucenici.length)];
         console.log(ucenici)
 
        
