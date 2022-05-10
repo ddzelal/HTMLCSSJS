@@ -41,7 +41,8 @@ switch(unos){
      console.log(visina)
 
      minv = Math.min.apply(Math,visina)
-     console.log("Najnizi ucenik je visok:",minv,"CM")
+     maxv = Math.max.apply(Math,visina)
+     console.log("Najnizi ucenik je visok:",minv,"CM","a najvisociji je:",maxv,"CM")
        
   
 
