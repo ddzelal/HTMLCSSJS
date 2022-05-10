@@ -67,6 +67,19 @@ switch(unos){
 
 
         break;
+    
+    case 4:
+
+    let ucenik_obj = {
+        ucenik: []
+    }
+
+    ucenik = prompt("Unesi nesto sta oces")
+    console.log(ucenik)
+
+
+
+        break;
 
 
 
