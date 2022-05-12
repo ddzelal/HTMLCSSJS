@@ -11,7 +11,7 @@ switch(odabir_p){
             console.log(broj)
             broj = broj + i;
         }
-        console.log(broj)
+        // console.log(broj)
 
 
 
@@ -56,9 +56,46 @@ switch(odabir_p){
         }
         
 
+        case 4:
+            brojevi = 10;
+            for (i=1; i<=4; i++) {
+                str = 0;
+                for(j=i; j<i; j++){
+                    
+                }
+                
+                
+                
+            }
+
+
+            break;
+
+
+            case 5:
+
+        zvezda = "";
+        space = " ";
+
+        for(i=1; i<=4; i++){
+            for(j=i; j<=4; j--){
+                space+= " "
+
+            }
+            zvezda+="*"
+            console.log(zvezda)
+
+
+           
+            }
+            
+            
+            break;
+        }
+
+        
 
 
 
 
 
-}
