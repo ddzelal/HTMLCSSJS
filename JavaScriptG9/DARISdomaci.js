@@ -24,29 +24,19 @@ switch(odabir_p){
         var i,j;
 
          br = "";
-         rez = "";
+         rez = [];
          ispis = "";
 
-        for(i=1; i<=10; i++){
-            
-            console.log("ovo je i",i)
+        for(i=1; i<=5; i++){
             for(j=1; j<=i; j++){
-               
+               console.log(i)
+                rez = i + `${i}`  
                 
-                rez = j.toString(); 
-                ispis = rez + rez;
-                // console.log(rez)
-                
-                // ispis = rez + rez + "3"
-                console.log(ispis)
-                
-                
-                
-                
-            }
-            
-            console.log(ispis)
+               console.log(rez)
+            }       
+           
         }
+        
         
 
         
@@ -65,6 +55,7 @@ switch(odabir_p){
             }
             console.log(res.join(""));
         }
+        
 
 
 
