@@ -29,10 +29,9 @@ switch(odabir_p){
 
         for(i=1; i<=5; i++){
             for(j=1; j<=i; j++){
-               console.log(i)
-                rez = i + `${i}`  
-                
+                rez = i.toString();
                console.log(rez)
+                
             }       
            
         }
