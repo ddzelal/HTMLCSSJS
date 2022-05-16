@@ -91,6 +91,111 @@ switch(odabir_p){
             
             
             break;
+
+            case 6:
+                let brojac = 0;
+                unos = Number(prompt("Koliko zelite brojeva?"))
+                broj=0;
+
+                while(brojac !== unos){
+                    if(broj % 2 ===1){
+                        console.log(broj)
+                        brojac++;
+                    }
+                    broj++;
+                }
+
+
+
+
+                break;
+
+                case 7:
+
+                br = 0;
+                // BROJAC = 10;
+                suma = 0;
+
+                while(br < 10){
+                    
+                    suma+=br;
+                    br++;
+                    console.log(suma)
+
+                }
+
+                        
+                
+
+                    break;
+
+                    case 8:
+                        br = 1;
+
+                        while (br < 100){
+
+                             if (br % 5 === 0 & br % 3 === 0)
+                            {
+                                console.log("fizbuz")
+                                br++
+                            }
+                            else if(br % 3 === 0){
+                                console.log("FIZ")
+                                br++;
+                            }
+                            else if (br % 5 === 0){
+                                console.log("buz")
+                                br++
+                            }
+                            
+                                console.log(br)
+                                br++;
+
+
+                        }
+
+
+                        break;
+                        //напишите програм који ће тражити број док не унесете негативан број. На крају одштампајте збир свих унетих бројева.
+
+                        case 9:
+
+                            unos =  Number(prompt("Unesite negativan broj"));
+                            suma = 0;
+                            suma+=unos;
+
+                            while(0 < unos)
+                            {
+                                unos = Number(prompt("Niste uneli negativan broj,unesite ponovo"));
+
+                                suma+=unos;
+
+                            }
+                            console.log(`Negatini broj je: ${unos}`);
+                            console.log("Suma svih unetih brojeva je:",suma)
+
+                        break;
+
+                        case 10:
+                            //напишите програм који ће тражити име док корисник не унесе ЕНД. одштампајте име сваки пут. када завршите, одштампајте "готово сам"
+
+                            unos =prompt("Uneiste `end`").toLowerCase();
+
+                            while(unos !== "end")
+                            {
+                                unos =prompt("Uneiste `end`").toLowerCase();
+                                console.log(unos)
+                            }
+
+                            if(unos === "end"){
+                                console.log("Ja sam gotov")
+                            }
+                            break;
+
+                            case 11:
+
+                            
+                                break;
         }
 
         
