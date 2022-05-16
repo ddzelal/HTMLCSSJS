@@ -193,7 +193,7 @@ switch(odabir_p){
                             break;
 
                             case 11:
-
+                                    console.log("TEST")
                             
                                 break;
         }
