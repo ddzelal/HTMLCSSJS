@@ -193,10 +193,25 @@ switch(odabir_p){
                             break;
 
                             case 11:
-                                    console.log("TEST")
+                                //све док има више оцена, додајте их укупном. подели укупан број са бројем курсева (свака оцена је курс)
+                                    //одштампати одговарајућу последњу оцену.
+                                        //зауставити када корисник унесе негативну оцену
+
+                                        suma_ocena = 0;
+                                        brojac_ocena =0;
+                                        ocene = []
+
+                                        unos = Number(prompt("Koliko zelis ocena?"))
+
+                                        while(1 > unos){
+                                            
+
+                                        }
+
+
                             
                                 break;
-        }
+    }
 
         
 
