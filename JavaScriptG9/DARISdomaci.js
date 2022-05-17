@@ -199,14 +199,30 @@ switch(odabir_p){
 
                                         suma_ocena = 0;
                                         brojac_ocena =0;
-                                        ocene = []
+                                        
+                                        
+                                        negativna = 1;
+                                        unos = Number(prompt("Unesite ocenu:"))
+                                        if(unos > 1){
+                                            console.log("Uneli ste ocenu:",unos);
+                                            brojac_ocena++;
+                                        }
 
-                                        unos = Number(prompt("Koliko zelis ocena?"))
-
-                                        while(1 > unos){
+                                        while(unos > negativna && unos <= 5){
+                                             unos = unos = Number(prompt("Unesite ocenu:"))
+                                             console.log("Uneli ste ocenu:",unos);
+                                             brojac_ocena++;
+                                             suma_ocena= suma_ocena + unos;
                                             
 
                                         }
+                                        console.log("Uneli ste negativnu ocenu");
+                                        // console.log(brojac_ocena)
+                                        prosek = suma_ocena / brojac_ocena;
+
+                                        console.log("Zbir svih ocena je:",suma_ocena);
+                                        console.log("Prosecna ocena je:",prosek)
+
 
 
                             
