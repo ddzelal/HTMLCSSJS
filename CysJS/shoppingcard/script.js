@@ -7,7 +7,7 @@ function addToCart(element){
     let quantity = mainEl.querySelector('input').value;
 
     let cartItems = document.querySelector('.cart-items');
-    
+    //commit
     if(parseInt(quantity)  >0){
 
         
