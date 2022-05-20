@@ -55,17 +55,47 @@
 //         }
     
 //     }
-unos = Number(prompt("unesi broj"))
-niz = [1,2,3,4,5,6,7,8]
-niz2=[];
+// unos = Number(prompt("unesi broj"))
+// niz = [1,2,3,4,5,6,7,8]
+// niz2=[];
 
-for(i=0; i<niz.length; i++){
-    if(niz[i]!==unos){
-        niz2.push(niz[i])
+// for(i=0; i<niz.length; i++){
+//     if(niz[i]!==unos){
+//         niz2.push(niz[i])
+//     }
+// }
+
+// console.log(niz2)
+
+niz = [2,3,4,1,20,23,16,33,44]
+
+ max = Math.max.apply(null, niz);
+ min=Math.min.apply(null,niz);
+
+console.log(`Najveci broj niza je ${max}  najmanji je  ${min}`)
+
+niz_dva = [2,3,4,1,20,23,16,33,44]
+niz2 = []
+
+for(i=0; i<niz_dva.length; i++){
+    if(max !== niz_dva[i])
+    {
+        niz2.push(niz_dva[i]);
     }
 }
 
-console.log(niz2)
+max2= Math.max.apply(null,niz2);
+console.log(`Drugi najveci broj niza je ${max2}`);
+
+
+unos = Number(prompt("Unesite broj za proveru jednakosti"))
+
+
+for(i=0; i<niz2.lenhgth; i++){
+    if(unos === niz2[i]){
+        console.log("Pronadjen je broj jednakosti")
+    }
+}
     
 
 

@@ -33,8 +33,9 @@ function addToCart(element){
     }
 
     function removeFromCart(elemnt){
-        let mainEl = element.closest('.cart-single-item');
-        let price = mainEl.querySelector('.p span')
+        console.log("Radi")
+        let mainEl = element.closest(`.cart-single-item`);
+        let price = mainEl.querySelector(`.p span`)
     };
 
     

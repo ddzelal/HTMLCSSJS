@@ -81,6 +81,7 @@ if(!isValid){
 
 loginBtn.addEventListener("click",(e)=>{
   e.preventDefault()
+  console.log("radi")
 
   firestore.collection("fomData").get().then((querySnapshot) => {
       let isValid = false
