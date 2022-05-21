@@ -69,6 +69,7 @@
 
 niz = [2,3,4,1,20,23,16,33,44]
 
+
  max = Math.max.apply(null, niz);
  min=Math.min.apply(null,niz);
 
@@ -87,15 +88,54 @@ for(i=0; i<niz_dva.length; i++){
 max2= Math.max.apply(null,niz2);
 console.log(`Drugi najveci broj niza je ${max2}`);
 
+razlika = max - min;
+console.log(`Razlika najmanjeg i najvecedg broja u nizu je ${razlika}`)
 
-unos = Number(prompt("Unesite broj za proveru jednakosti"))
+
+//28ZADATAK !
 
 
-for(i=0; i<niz2.lenhgth; i++){
-    if(unos === niz2[i]){
-        console.log("Pronadjen je broj jednakosti")
-    }
-}
-    
 
+
+// unos = Number(prompt("Unesite broj za proveru jednakosti"))
+
+
+// var stanje = false;
+// console.log(niz2)
+// for(i=0; i<niz2.length; i++){
+//     if(niz2[i] === unos){
+//         stanje = true;
+//     }  
+// }
+
+// if(stanje === true){
+//     console.log("Postojeci broj")
+// }
+// else{
+//     console.log("Nema broja")
+// }
+
+
+// prviNiz = [2,3,4]
+// drugiNiz = [2,3,4,4]
+// provera = []
+
+
+// for(i=0; i<prviNiz.length; i++){
+ 
+//    provera.push(prviNiz[i])
+// }
+
+// for(j=0; j<drugiNiz.length; j++){
+//     provera.push(drugiNiz[j])
+// }
+
+// console.log(provera)
+
+// if(prviNiz.length === drugiNiz.length){
+//     console.log("Nizovi su jednaki")
+// }
+// else{
+//     console.log("Nizovi nisu jednaki")
+// }
 
