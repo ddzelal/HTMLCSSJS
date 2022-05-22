@@ -75,7 +75,7 @@ niz = [2,3,4,1,20,23,16,33,44]
 
 console.log(`Najveci broj niza je ${max}  najmanji je  ${min}`)
 
-niz_dva = [2,3,4,1,20,23,16,33,44]
+niz_dva = [2,4,2,20,24,16,34,43]
 niz2 = []
 
 for(i=0; i<niz_dva.length; i++){
@@ -90,6 +90,33 @@ console.log(`Drugi najveci broj niza je ${max2}`);
 
 razlika = max - min;
 console.log(`Razlika najmanjeg i najvecedg broja u nizu je ${razlika}`)
+
+parni=0;
+neparni=0;
+
+for(i=0; i<niz2.length; i++){
+    if(niz2[i]%2!==0){
+        console.log("Nisu svi br parni")
+        break;
+    }
+    
+}
+
+for(i=0; i<niz2.length; i++){
+    if (niz2[i] % 2 === 0){
+        parni+=niz2[i]
+    }
+    else if(niz2[i] % 2 === 1){
+        neparni+=niz2[i]
+    }
+    else{
+        console.log("Ne radi")
+    }
+    
+}
+
+console.log("Razlika izmedju parnih i neparnih je:",parni-neparni)
+
 
 
 //28ZADATAK !
