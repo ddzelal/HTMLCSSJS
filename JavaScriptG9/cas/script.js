@@ -93,7 +93,7 @@ console.log(`Razlika najmanjeg i najvecedg broja u nizu je ${razlika}`)
 
 
 //28ZADATAK !
-
+//dvazadatka
 
 
 
