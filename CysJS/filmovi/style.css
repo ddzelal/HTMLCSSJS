@@ -1,0 +1,44 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    
+
+
+}
+
+.kocke {
+    width: 300px;
+    height: 500px;
+    background-color: blue;
+    margin: 20px;
+    
+}
+
+.nazivFilma {
+    text-align: center;
+    color: white;
+}
+
+.cenaFilma {
+    
+    font-size: 30px;
+     margin-left:  130px;
+}
+
+.ocenaFilma {
+    font-size: 30px;
+    color: yellow;
+    text-align: center;
+}
+
+.gledajFilm {
+    justify-items: center   ;
+    width: 200px;
+    margin-left: 50px;
+}
