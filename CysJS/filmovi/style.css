@@ -47,3 +47,9 @@ body {
     text-align: center;
     margin-top: 50px;
 }
+
+.total {
+    font-size: 50px;
+    position: relative;
+    left: 1500px;
+}
