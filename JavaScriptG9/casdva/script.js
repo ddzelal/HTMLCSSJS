@@ -36,14 +36,25 @@
 // console.log(niz2)
 
 
-niz = [2,3,12,5,-2,-32,23]
-sum = 0;
+// niz = [2,3,12,5,-2,-32,23]
+// sum = 0;
 
-for(i=0; i<niz.length; i++){
-    if(niz[i]>0){
-        sum+=niz[i]
-    }
+// for(i=0; i<niz.length; i++){
+//     if(niz[i]>0){
+//         sum+=niz[i]
+//     }
 
-}
+// }
 
-console.log(sum)
+// console.log(sum)
+
+actualArr = ['Apple', 'Apple', 'Banana', 'Mango', 'Strawberry', 'Banana'];
+
+console.log('Actual Array: ' + actualArr);
+
+var filteredArr = actualArr.filter(function(item, index) {
+  if (actualArr.indexOf(item) == index)
+    return item;
+});
+
+console.log('Filtered Array: ' + filteredArr);
