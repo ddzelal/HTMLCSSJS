@@ -1,20 +1,18 @@
 
+//prvi zadatak
+
+broj = '2326212'
+Nbroj = ''
 
 
-// prvi zadatak
+for(i=0; i<broj.length; i++){
+    if(broj[i] % 2 === 0){
+        Nbroj +=  '-'
+    }
+    Nbroj+= broj[i]
+}
 
-// broj = '2326212'
-// Nbroj = ''
-
-
-// for(i=0; i<broj.length; i++){
-//     if(broj[i] % 2 === 0){
-//         Nbroj +=  '-'
-//     }
-//     Nbroj+= broj[i]
-// }
-
-// console.log(Nbroj)
+console.log(Nbroj)
 
 
 // drugizadatak
@@ -48,13 +46,60 @@
 
 // console.log(sum)
 
-actualArr = ['Apple', 'Apple', 'Banana', 'Mango', 'Strawberry', 'Banana'];
+// actualArr = ['Apple', 'Apple', 'Banana', 'Mango', 'Strawberry', 'Banana'];
 
-console.log('Actual Array: ' + actualArr);
+// console.log('Actual Array: ' + actualArr);
 
-var filteredArr = actualArr.filter(function(item, index) {
-  if (actualArr.indexOf(item) == index)
-    return item;
-});
+// var filteredArr = actualArr.filter(function(item, index) {
+//   if (actualArr.indexOf(item) == index)
+//     return item;
+// });
 
-console.log('Filtered Array: ' + filteredArr);
+// console.log('Filtered Array: ' + filteredArr);
+
+
+// niz = [NaN,0,15,false,-22,'',undefined,42,null]
+// niz2=[]
+
+// for(el of niz){
+//   if(el){
+//     niz2.push(el)
+//   }
+// }
+
+// console.log(niz2)
+
+
+// niz1=[1,2,3];
+// niz2=[2,30,1];
+// niz3  = niz1.concat(niz2)
+// niz4 = []
+
+// console.log(niz3)
+
+// for(el of niz3){
+//   if(!niz4.includes(el)){
+//     niz4.push(el)
+//   }
+// }
+
+// console.log(niz4)
+
+// unos = Number(prompt("Koliko zelis elemenata?"))
+// brojac = 0;
+// suma = []
+// el = Number(prompt("Unesi element"));
+
+
+// while(unos > brojac){
+  
+//   for(i=0; i<unos; i++){
+//     suma.push(el)
+//   }
+//   brojac++
+  
+
+    
+// }
+// console.log(suma)
+
