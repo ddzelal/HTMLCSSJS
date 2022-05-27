@@ -103,3 +103,16 @@ console.log(Nbroj)
 // }
 // console.log(suma)
 
+
+niz = [1,23,4,5,67,231,2,3,5]
+niz2 = []
+
+unos = Number(prompt("Koliko zelis elemenatA?"))
+br = 0;
+
+for(i=0; i<unos; i++){
+    niz.pop();
+}
+
+
+console.log(niz)
