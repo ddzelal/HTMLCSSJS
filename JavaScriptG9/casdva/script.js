@@ -104,15 +104,31 @@ console.log(Nbroj)
 // console.log(suma)
 
 
-niz = [1,23,4,5,67,231,2,3,5]
-niz2 = []
+// niz = [1,23,4,5,67,231,2,3,5]
+// niz2 = []
 
-unos = Number(prompt("Koliko zelis elemenatA?"))
-br = 0;
+// unos = Number(prompt("Koliko zelis elemenatA?"))
+// br = 0;
 
-for(i=0; i<unos; i++){
-    niz.pop();
+// for(i=0; i<unos; i++){
+//     niz.pop();
+// }
+
+
+// console.log(niz)
+
+
+const numbers = [2,3,4,5,12,23,421,12,4]
+
+const EvenNumbers = numbers.filter((el) => el % 2 === 0)
+
+console.log(EvenNumbers)
+
+const cene = []
+
+function fun (){
+
 }
 
 
-console.log(niz)
+
