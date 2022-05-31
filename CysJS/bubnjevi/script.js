@@ -64,3 +64,5 @@ drumKeys.forEach(key => {
 
 crashRide.addEventListener("transitonend", removeCrashRideTransition);
 hiHatTop.addEventListener("transitonend", removeHiHatTopTransition);
+
+//tedstes
