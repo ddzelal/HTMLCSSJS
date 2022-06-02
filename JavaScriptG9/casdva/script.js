@@ -130,5 +130,5 @@ function fun (){
 
 }
 
-
+console.log(numbers.reduce((prevValue,currValue) => prevValue + currValue))
 
