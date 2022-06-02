@@ -46,3 +46,55 @@ console.log(nizReduce)
 nizFilter = nizSpajanja.filter(el => el % 2 === 0)
 
 console.log(nizFilter)
+
+
+//zadatak napraviti kvadrat svakog elementa niza i da je veci od 100
+
+
+
+
+function kvadratF (num){
+    return num*num;
+}
+
+nizKvadrata = nizSpajanja.map(kvadratF).filter(el => el>100)
+
+console.log(nizKvadrata)
+
+// console.log(kvadratF)
+
+nizForEach = ["Sta radis",23,42,213,32,"sta"]
+
+
+function provera (element){
+    if(element === num){
+
+    }
+}
+
+novi = nizForEach.filter(el => el === 23)
+
+console.log(novi)
+
+
+// 
+
+
+niz2 [2,3,4,5,6,7,8]
+
+  niz3 = niz2.indexOf(2)
+
+console.log("STA",niz3)
+
+
+niz4 = niz2.filter(el => el >2).map(el => el +2)
+
+console.log(niz4)
+
+
+nes = "hello"
+
+nes[0] = "a"
+
+
+console.log(nes)
