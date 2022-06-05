@@ -62,3 +62,21 @@ let res = longestCommonPrefix(["flower","flow","flight"]);
 console.log(res);
 
 
+console.log("---------------")
+
+
+niz = ["flower","flow","flight"]
+
+for(i=0; i<niz.length; i++){
+    for(j=0; j<niz[i].length; j++){
+
+        // if(niz[i=0] && niz[i=2] && niz[i=3] === niz[j]){
+        //     console.log("jedds")
+        // }
+        
+        
+        console.log(niz[i][j],i,j)
+    }
+    console.log("-----------")
+}
+
