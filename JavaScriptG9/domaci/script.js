@@ -80,3 +80,14 @@ for(i=0; i<niz.length; i++){
     console.log("-----------")
 }
 
+
+niz.forEach((item,index)=> {
+    console.log(index,item[0],item[1])
+
+    
+})
+
+// let proveraNiza = niz.every((el) => e)
+
+// console.log(proveraNiza)
+
