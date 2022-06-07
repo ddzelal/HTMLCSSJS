@@ -82,6 +82,9 @@ for(i=0; i<niz.length; i++){
 
 
 niz.forEach((item,index)=> {
+    if(index[0],index[1],index[2] ){
+        console.log("tjt bravo  ",index)
+    }
     console.log(index,item[0],item[1])
 
     
