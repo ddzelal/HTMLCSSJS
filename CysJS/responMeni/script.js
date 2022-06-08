@@ -52,3 +52,4 @@ const displayNone = (pictures) => {
         
     };
 //27:46
+//kom
