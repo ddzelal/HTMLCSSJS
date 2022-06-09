@@ -58,39 +58,7 @@ const portfolioSort = (button) =>{
     portfoliItems.forEach((item) => {
         item.style.display='none';
     })
-<<<<<<< HEAD
         
     };
 //27:46
 //kom
-=======
-
-    if(categorty === 'sve'){
-        portfoliItems.forEach((item) => {
-            item.style.display='block';
-        })
-    }
-
-    portfoliItems.forEach((item)=>{
-        if(item.getAttribute('data-category').includes(categorty)){
-            item.style.display= 'block'
-        }
-    })
-
-}
-
-const openModal = () =>{
-    let modalWindow = document.querySelector('.popup-modal')
-    let overlay = document.querySelector('.overlay')
-    overlay.style.display='block'
-    modalWindow.style.display = 'block'
-}
-
-const closeModal = () => {
-    let modalWindow = document.querySelector('.popup-modal')
-    let overlay = document.querySelector('.overlay')
-    overlay.style.display='none'
-    modalWindow.style.display = 'none'
-}
- 
->>>>>>> d993ff54b76cd762f162bfbf904e27b05f86b3c8
