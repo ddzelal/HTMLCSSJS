@@ -31,22 +31,29 @@ matrica = brojevi.split("\n");
 matrica = matrica.map((red) => {
     return red.split(" ");
 })
-console.log(matrica)
 
 for(let i=0; i<matrica.length; i++){
-    for(let j=0; matrica[i].length; j++){
+    for(let j=0; j<matrica[i].length; j++){
         matrica[i][j] = Number(matrica[i][j])
+    }
+}
+// console.log(matrica)
+
+let maxPr = 0;
+
+for(i=0; i<matrica.length-4; i++){
+    let suma = 1;
+    for(j=1; j<=4; j++){
+        suma = suma * matrica[i+j];
+        
+    }
+    if(suma>maxPr){
+        maxPr = suma;
     }
 }
 
 
-console.log(matrica)
-
-// matrica= matrica.map(el => {
-//     return Number(el);
-    
-// });
-
+console.log(maxPr)
 
 
 
@@ -103,3 +110,6 @@ console.log(matrica)
 
 
 // console.log(Covek.ime + Covek.prezime)
+
+
+        

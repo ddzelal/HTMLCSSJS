@@ -24,7 +24,7 @@ body
 }
 
 .section .fadeMove{
-    transition: translateY(50px);
+    transform: translateY(50px);
 }
 .section2 .images {
     display: flex;
