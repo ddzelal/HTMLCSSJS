@@ -62,3 +62,16 @@ const duplicates = numbers.filter((item, index) => index !== numbers.indexOf(ite
 console.log(duplicates);
 
 //tst
+function sameCase(a, b){
+  if(/[^a-zA-Z]/.test(a) || /[^a-zA-Z]/.test(b)){
+    return -1
+  }
+  
+  
+  if(a.toUpperCase() === a && b.toUpperCase() === b || a.toLowerCase() === a && b.toLowerCase() === b){
+    return 1;
+  }
+  
+ return 0
+  
+}

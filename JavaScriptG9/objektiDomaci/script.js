@@ -109,7 +109,26 @@ console.log(maxPr)
 // }
 
 
-// console.log(Covek.ime + Covek.prezime)
+// // console.log(Covek.ime + Covek.prezime)
 
 
-        
+// function sameCase(a, b){
+    // let p = ['q','w','e','r','t','y','u','i','o','p','a','s','d','f','g','h','j','k','l','z','x','c','v','b','n','m'];
+    // const uP = p.map(name => name.toUpperCase());
+      
+    //   for(let i of p){
+    //     if(a !== i && b !== i) {
+    //          return -1;
+    //       }
+       
+    //     }
+      
+//       for(let i of uP){
+//          if(typeof a === 'string' && typeof b == 'string'){
+//           return 1;
+//         }
+//       }
+      
+
+      
+//     }

@@ -90,17 +90,41 @@ for (i=0; i<nizGlavni.length; i++){
         
 //     }
     
-        
 
-    
-    
-    
-       
+// arr = [[45,12],[55,21],[19,-2],[55,10]]
+//   output=[]
+  
+//   for(i=0; i<arr.length; i++){
+//     a=0;
+//     b=0;
+//     for(j=0; j<arr[i].length; j++){
         
-
-        
+//       a=arr[i][j]
+//       b=arr[i][j+1]
+//       console.log(a,b)
+//       if(a >= 55 && b >= 7){
+//         output.push("Senior")
+//         break;
+//       }
+//       else {
+//         output.push("Open")
+//         break;
+//       }
       
-        
-        
+//     }
     
+//   }
+//   novi = output.map(el => el = "Open")
+//   console.log(output,novi)
 
+
+arr =['sheep', 'sheep', 'sheep', 'sheep', 'sheep', 'wolf', 'sheep', 'sheep'] ;
+  
+  for(i=0; i<arr.length; i++){
+    if(arr[i] === "wolf"){
+      a=arr[i-1]
+      console.log(arr[i-1],i-1)
+    }
+  }
+
+  
