@@ -19,3 +19,4 @@ class Covek{
 console.log(CovekPrvi);
 
 //tst
+//edit
