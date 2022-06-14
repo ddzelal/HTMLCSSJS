@@ -138,3 +138,41 @@ console.log(maxPr)
 
       
 //     }
+
+
+const nesto = (a,b,num) => {
+    switch(num){
+        case '+':
+            return a + b ;
+        break;
+        case '*':
+            return a * b;
+        break;
+        case '/':
+            return a /b ;
+        break;
+    }
+}
+
+
+console.log(nesto(1,2,'*'))
+let arr = [3,2,2,4,3]
+
+const zameni = (arg1) => {
+        return arg1.reverse();
+}
+
+console.log(zameni(arr))
+
+
+const reverseNumber = (num) => {
+    num.split('')
+ iza = map(el => {
+    return  Number(el)
+})
+
+  return iza.reverse();
+}
+
+br = 1232
+console.log(reverseNumber(br))
