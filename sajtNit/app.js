@@ -30,6 +30,7 @@ var firestore = firebase.firestore()
 const db = firestore.collection("fomData")
 
 
+
 registerBtn.addEventListener("click", (e) => {
   //Prevent Default Form Submission Behavior
   e.preventDefault()
@@ -49,16 +50,12 @@ registerBtn.addEventListener("click", (e) => {
   querySnapshot.forEach((doc) => {
       const user = doc.data()
       if(user.email===emailInput.value){
-          isValid=false
+        db.doc(doc.id).delete()
       }
 
   })
 
 
-if(!isValid){
-    alert("Vec postoji user sa unetim emailom")
-    return
-}
 
   db.doc().set({
     email: emailInput.value,
@@ -84,6 +81,8 @@ loginBtn.addEventListener("click",(e)=>{
   console.log("radi")
 
   firestore.collection("fomData").get().then((querySnapshot) => {
+console.log("======================")
+
       let isValid = false
     querySnapshot.forEach((doc) => {
         const user = doc.data()
@@ -92,13 +91,14 @@ loginBtn.addEventListener("click",(e)=>{
         }
 
     })
+    console.log("ads")
 
     if(isValid){
-        window.location.replace('/sajtNit/')
+        window.location.replace('./index.html')
     }else{
         alert("Login nije validan")
     }
-});
+})
 })
 
 
