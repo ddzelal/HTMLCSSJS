@@ -68,3 +68,6 @@ checkNumber(123321)
 // else if(provera === false){
 //     console.log("Broj nije polindrom")
 // }
+
+
+//Evo me lema
