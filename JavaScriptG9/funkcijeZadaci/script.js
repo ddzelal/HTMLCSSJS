@@ -17,7 +17,7 @@ const toUpperCaseString = (str) => {
 };
 
 console.log(toUpperCaseString("the quick brown fox"));
-console.log(toUpperCaseString("amar starcanin amel bisevac"));
+// console.log(toUpperCaseString("amar starcanin amel bisevac"));
 
 //roveri jel broj polindrom 1234321
 
@@ -25,7 +25,7 @@ const checkNumber = (num) => {
   var nizBr = num.toString().split("");
   var broj = nizBr.map(Number);
 
-  provera = false;
+  // provera = false;
 
   for (i = 0, j = broj.length - 1; i < broj.length; i++, j--) {
     if (broj[i] !== broj[j]) {

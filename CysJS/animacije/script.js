@@ -28,13 +28,22 @@ setInterval(()=>{
 let animationWidth = 0;
 let border = document.querySelector('.border-line')
 window.onscroll = () => {
-    if(this.oldScroll >= this.scrollY)
+
+    if(this.oldScroll > this.scrollY){
+        animationWidth-= 1.5;
+    }
+    else {
+        animationWidth+=1.5;
+    }
     if(animationWidth >= 100){
         animationWidth = 100;
-    }else {
-        animationWidth += 1;
     }
-   console.log(this.scrollY)
+    if(animationWidth <= 0){
+        animationWidth = 100;
+    }if(animationWidth <= 0){
+        animationWidth=0;
+    }
+
    border.style.width= animationWidth + '%'
 
    this.oldScroll = this.scrollY;

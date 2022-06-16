@@ -42,8 +42,21 @@ body
 .section2 .images img {
 
 width: 50%;
+transition: all 1s ease;
+opacity: 0;
 
 }
+
+.section2 .images img.slideFromLeft {
+
+    transform: translateX(-50%);
+    
+    }
+.section2 .images img.slideFromRigth {
+
+        transform: translateX(50%);
+        
+        }    
 
 .section2 h1 {
     line-height: 1.3;
