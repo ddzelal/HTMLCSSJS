@@ -108,11 +108,16 @@ for(i=0; i<S_str.length; i++){
     for(j=i+1; j<S_str.length; j++){
         if(S_str[i] === S_str[j]){
             console.log(S_str[j],"Duplicat BRATE!!!!!")
-            S_str.slice(S_str[i],1)
+        }
+       else if(S_str[i] != S_str[j]){
+            string+=S_str[i]
+            break;
         }
         
+        
     }
+   
 }
 console.log(S_str)
 
-// console.log(string)
+console.log(string)
