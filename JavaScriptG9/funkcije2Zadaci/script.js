@@ -2,24 +2,59 @@
 // Пример функције: количинаТоцоинс(46, [25, 10, 5, 2, 1])
 // Овде је 46 износ. а 25, 10, 5, 2, 1 су новчићи.
 // Излаз: 25, 10, 10, 1
+let novac = [25,10,5,2,1]
+
+const TargetCoins = (provera,arr) => {
+    let suma = 0;
+    
+    output = []
+    for(i=0; i<arr.length; i++){
+        suma+=arr[i];
+        if(suma <= provera){
+            output.push(arr[i])
+            // console.log(suma)[]
+        }
+        else if(suma > provera){
+            suma-=arr[i]
+        }
+       
+    
+    }
+    if(provera === suma){
+        return console.log("Iskoriceni novac:",output)
+    }
+    else {
+        return console.log("Nemate odgovarajuci novac:")
+    }
+    
+}
+
+TargetCoins(41,novac)
 
 
-novac = [25,10,5,2,1]
-N_novac
 target = 46;
+suma =0;
+novac = [25,10,5,2,1]
+output = []
+
 
 for(i=0; i<novac.length; i++){
-    suma = novac[i]
-    //25
-    if(suma + novac[i] === target){
-        //25 + 25 === 46
-        N_novac.push(novac[i])
-        N_novac.push(novac[i])
+    suma+=novac[i];
+    if(suma <= target){
+        output.push(novac[i])
+        if(suma+novac[i] <= target){
+            suma+=novac[i];
+            output.push(novac[i])
+        }
     }
     else{
-        N.novac.push(novac[i])
+        suma-=novac[i]
     }
-
+   console.log(suma)
 
 }
 //probaj
+
+console.log(output)
+
+////Zav prvi Zadatak 

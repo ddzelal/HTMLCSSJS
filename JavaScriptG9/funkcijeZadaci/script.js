@@ -7,6 +7,7 @@ const toUpperCaseString = (str) => {
     for (j = 0; j < V_str[i].length; j++) {
       if (V_str[i][0] === V_str[i][j]) {
         velikaS += V_str[i][0].toUpperCase();
+        
       } else {
         velikaS += V_str[i][j];
       }
@@ -71,3 +72,4 @@ checkNumber(123321)
 
 
 //Evo me lema
+
