@@ -104,20 +104,15 @@ S_str=str.split("")
 console.log(S_str)
 string=""
 for(i=0; i<S_str.length; i++){
-    // console.log(S_str[i],"ovo je i")
+
     for(j=i+1; j<S_str.length; j++){
         if(S_str[i] === S_str[j]){
             console.log(S_str[j],"Duplicat BRATE!!!!!")
+            S_str.splice(i, 1);
         }
-       else if(S_str[i] != S_str[j]){
-            string+=S_str[i]
-            break;
-        }
-        
+       
         
     }
-   
+    
 }
 console.log(S_str)
-
-console.log(string)
