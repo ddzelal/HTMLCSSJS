@@ -204,7 +204,7 @@ let Kuca = {
     Vlasnik: "Dzelal",
     Boja: "Zuta"
 }
-//
+////
 let auto = {
     marka: "Golf",
     Gorivo: "Dizel",
