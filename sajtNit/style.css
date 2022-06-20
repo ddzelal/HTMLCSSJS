@@ -919,7 +919,7 @@ color: white;
   right: 0px;
   background-color: #111;
   display: none;
-  transition: 1s all ease;
+  transition:all 1s ease;
   animation-duration: 2s;
   animation-name: show;
   overflow: scroll;

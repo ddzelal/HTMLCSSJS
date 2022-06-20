@@ -39,21 +39,21 @@ for(let i=0; i<matrica.length; i++){
 }
 // console.log(matrica)
 
-let maxPr = 0;
+// let maxPr = 0;
 
-for(i=0; i<matrica.length-4; i++){
-    let suma = 1;
-    for(j=1; j<=4; j++){
-        suma = suma * matrica[i+j];
+// for(i=0; i<matrica.length-4; i++){
+//     let suma = 1;
+//     for(j=1; j<=4; j++){
+//         suma = suma * matrica[i+j];
         
-    }
-    if(suma>maxPr){
-        maxPr = suma;
-    }
-}
+//     }
+//     if(suma>maxPr){
+//         maxPr = suma;
+//     }
+// }
 
 
-console.log(maxPr)
+// console.log(maxPr)
 
 
 
@@ -140,39 +140,99 @@ console.log(maxPr)
 //     }
 
 
-const nesto = (a,b,num) => {
-    switch(num){
-        case '+':
-            return a + b ;
-        break;
-        case '*':
-            return a * b;
-        break;
-        case '/':
-            return a /b ;
-        break;
+// const nesto = (a,b,num) => {
+//     switch(num){
+//         case '+':
+//             return a + b ;
+//         break;
+//         case '*':
+//             return a * b;
+//         break;
+//         case '/':
+//             return a /b ;
+//         break;
+//     }
+// }
+
+
+// console.log(nesto(1,2,'*'))
+// let arr = [3,2,2,4,3]
+
+// const zameni = (arg1) => {
+//         return arg1.reverse();
+// }
+
+// console.log(zameni(arr))
+
+
+// const reverseNumber = (num) => {
+//     num.split('')
+//  iza = map(el => {
+//     return  Number(el)
+// })
+
+//   return iza.reverse();
+// }
+
+// br = 1232
+// console.log(reverseNumber(br))
+
+
+class User {
+    constructor(uname,upass,urank){
+
+
+        this.username = uname;
+        this.password = upass;
+        this.rank = urank;
+        this.id = Math.random()
+       let nesto = function WhoIsLog (){
+            console.log(`Ulogovani korisnik je ${this.username},vas rank je:${this.rank},vas trenutni je id ${this.id}`)
+        }
     }
 }
 
 
-console.log(nesto(1,2,'*'))
-let arr = [3,2,2,4,3]
+let dzelal = new User("Dzelal","123456","Legend")
+let daris = new User('Daris','2312321','Silver')
 
-const zameni = (arg1) => {
-        return arg1.reverse();
+const sefko = {...dzelal,...daris}
+console.log(sefko)
+
+let Kuca = {
+    lokacija: "Jaklja23",
+    Vlasnik: "Dzelal",
+    Boja: "Zuta"
 }
 
-console.log(zameni(arr))
-
-
-const reverseNumber = (num) => {
-    num.split('')
- iza = map(el => {
-    return  Number(el)
-})
-
-  return iza.reverse();
+let auto = {
+    marka: "Golf",
+    Gorivo: "Dizel",
+    Nesto: true
 }
 
-br = 1232
-console.log(reverseNumber(br))
+posedovanje = {...Kuca,...auto}
+
+console.log(posedovanje)
+// const WhoIsLog = (user) => {
+
+//     return console.log('Ulogovani korisnik je:',user.username,
+//                         'Vas rank je:',user.rank,user.id,user.checkActive)
+
+
+// }
+
+// WhoIsLog(sefko)
+// WhoIsLog(dzelal)
+// console.log(dzelal)
+
+arr = [43,10,21,24]
+noviArr = arr.sort((a,b) => a-b)
+
+console.log(noviArr)
+
+str = ['2','3','4']
+str.map(element => {
+});
+
+console.log(str)

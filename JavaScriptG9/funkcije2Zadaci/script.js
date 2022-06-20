@@ -115,4 +115,11 @@ for(i=0; i<S_str.length; i++){
     }
     
 }
-console.log(S_str)
+// console.log(S_str)
+
+
+let novi = [...new Set(S_str)]
+novi.join('')
+console.log(novi)
+
+
