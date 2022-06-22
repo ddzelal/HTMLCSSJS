@@ -118,13 +118,27 @@ for (i=0; i<nizGlavni.length; i++){
 //   console.log(output,novi)
 
 
-arr =['sheep', 'sheep', 'sheep', 'sheep', 'sheep', 'wolf', 'sheep', 'sheep'] ;
+// arr =['sheep', 'sheep', 'sheep', 'sheep', 'sheep', 'wolf', 'sheep', 'sheep'] ;
   
-  for(i=0; i<arr.length; i++){
-    if(arr[i] === "wolf"){
-      a=arr[i-1]
-      console.log(arr[i-1],i-1)
+//   for(i=0; i<arr.length; i++){
+//     if(arr[i] === "wolf"){
+//       a=arr[i-1]
+//       console.log(arr[i-1],i-1)
+//     }
+//   }
+
+  n=10;
+
+  let arr = []
+  while(n>0){
+    if(n>0){
+      arr.push(true)
+      n--;
+}
+     if(n>0){
+      arr.push(false)
+      n--;
     }
   }
 
-  
+  console.log(arr)
