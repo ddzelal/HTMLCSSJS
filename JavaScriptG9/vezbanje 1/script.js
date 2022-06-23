@@ -1,4 +1,5 @@
 mPlate = [];
+radnici = [];
 class Radnik {
   imeFirme = "CepkanjeDrva.d.o.o";
   constructor(i, p, rm, pl, rs) {
@@ -7,7 +8,10 @@ class Radnik {
     this.radnoMesto = rm;
     this.plata = pl;
     this.radniStaz = rs;
+    radnici.push(this.ime,this.prezime)
   }
+
+  
 
   mesecnaPlata(brojRadnihSati, satnica) {
     let mp = brojRadnihSati * satnica;
@@ -29,6 +33,7 @@ let DrugiRadnik = new Radnik(
   "Smrad",
   "Cepas Drva",
   "43000",
+
   "22godina"
 );
 let TreciRadnik = new Radnik(
@@ -53,3 +58,15 @@ const TroskoviFirme = (arr) => {
 };
 // console.log(mPlate)
 console.log("TroskoviFirme", TroskoviFirme(mPlate));
+console.log(radnici)
+
+firma = {
+    imeF: 'Drvosece d.o.o',
+    vlasnik : 'Dzelal'
+}
+
+const KonacniOb = {...PrviRadnik,...firma}
+
+console.log(KonacniOb.ime,KonacniOb.imeFirme,KonacniOb.radnoMesto)
+
+
