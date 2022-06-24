@@ -70,3 +70,7 @@ const KonacniOb = {...PrviRadnik,...firma}
 console.log(KonacniOb.ime,KonacniOb.imeFirme,KonacniOb.radnoMesto)
 
 
+
+
+
+
