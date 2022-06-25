@@ -122,4 +122,19 @@ let novi = [...new Set(S_str)]
 novi.join('')
 console.log(novi)
 
+setTimeout(() => {
+    console.log('Taro je na cas :D <333');
+},1000)
+
+
+posao = new Promise((res,rejact) => {
+    let status = 404;
+    for (let index = 0; index < 99999999999; index++) {
+        if(status===200){
+            res();
+        }else {
+            rejact();
+        }
+    }
+})
 

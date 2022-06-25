@@ -73,4 +73,20 @@ console.log(KonacniOb.ime,KonacniOb.imeFirme,KonacniOb.radnoMesto)
 
 
 
+class Firma {
+  constructor(i,v,) {
+    this.ime = i;
+    this.vlasnik = v;
+    
+  }
 
+  Svaimena (){
+    return this.ime + this.vlasnik
+
+  }
+}
+
+
+sefko = new Firma('Dzelal','Dzeki')
+
+console.log(sefko.Svaimena());
