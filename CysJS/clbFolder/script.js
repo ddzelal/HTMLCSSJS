@@ -19,13 +19,36 @@ document.querySelector('#fetchBtn').addEventListener('click', e => {
 })
 
 
+// let testFetch =  fetch('https://62b5d68042c6473c4b3b614e.mockapi.io/testApi/appjs/user').then(async(result => {
+//     res = await result.json();
+//     console.log(res);
+// })).catch((err) => {
+//     console.log(err,'Neuspesno');
+// })
 
-fetch('https://62b5d68042c6473c4b3b614e.mockapi.io/testApi/appjs/user').then(async(result => {
-    res = await result.json();
-    console.log(res);
-})).catch((err) => {
-    console.log(err,'Neuspesno');
+let fetchTest = fetch('https://62b5d68042c6473c4b3b614e.mockapi.io/testApi/appjs/user');
+
+function konvert (odgS){
+    return odgS.json();
+}
+
+
+let converP = fetchTest.then(konvert)
+console.log(converP);
+
+
+
+fetch('https://62b5d68042c6473c4b3b614e.mockapi.io/testApi/appjs/user'  ).then(odgovrServera => {
+    console.log(odgovrServera);
+    return odgovrServera.json()
+}).then(vidiPodatke => {
+    console.log('ima' + podaci+ 'podataka');
+}).catch(greska => {
+    console.log('doslo je do greske',greska);
 })
+
+
+
 //sta radis
 
 
