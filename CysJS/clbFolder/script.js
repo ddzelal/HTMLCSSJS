@@ -18,6 +18,14 @@ document.querySelector('#fetchBtn').addEventListener('click', e => {
 
 })
 
+
+
+fetch('https://62b5d68042c6473c4b3b614e.mockapi.io/testApi/appjs/user').then(async(result => {
+    res = await result.json();
+    console.log(res);
+})).catch((err) => {
+    console.log(err,'Neuspesno');
+})
 //sta radis
 
 
