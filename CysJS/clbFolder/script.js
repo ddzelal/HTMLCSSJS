@@ -49,6 +49,12 @@ fetch('https://62b5d68042c6473c4b3b614e.mockapi.io/testApi/appjs/user'  ).then(o
 })
 
 
+function main(){
+    fetch('https://62b5d68042c6473c4b3b614e.mockapi.io/testApi/appjs/user').then(res => res.json()).then(data =>{
+        
+    })
+}
+
  
 
 
