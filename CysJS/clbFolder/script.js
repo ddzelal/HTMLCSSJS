@@ -40,13 +40,16 @@ console.log(converP);
 
 fetch('https://62b5d68042c6473c4b3b614e.mockapi.io/testApi/appjs/user'  ).then(odgovrServera => {
     console.log(odgovrServera);
-    return odgovrServera.json()
+    res = odgovrServera.json();
+    return res
 }).then(vidiPodatke => {
-    console.log('ima' + podaci+ 'podataka');
+    console.log(res);
 }).catch(greska => {
     console.log('doslo je do greske',greska);
 })
 
+
+ 
 
 
 //sta radis
