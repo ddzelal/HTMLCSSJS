@@ -1,0 +1,26 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.openDiv {
+    width: 250px;
+    height: 50px;
+    margin: auto;
+}
+
+.openBtn {
+    width: 200px;
+    height: 100px;
+}
+
+.ToDoList {
+  width: 500px;
+  height: 100px;
+  background-color:red;
+  margin: auto;
+  margin: 5px auto;
+  
+}
