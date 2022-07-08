@@ -15,10 +15,10 @@ function createElemnt() {
   newDiv.appendChild(NewBtn);
   const DrugiBtn = document.createElement("button");
   newDiv.appendChild(DrugiBtn);
-  DrugiBtn.innerText = "izmeni me?";
-  NewBtn.innerText = "Obrisi me smradu";
+  DrugiBtn.innerText = "Edit";
+  NewBtn.innerText = "Delete";
   DeleteEl(NewBtn, newDiv);
-  DrugiBtn.addEventListener(edit(DrugiBtn));
+  DrugiBtn.addEventListener(edit(DrugiBtn,newDiv));
 }
 
 DeleteEl = (btn, div) => {
@@ -27,8 +27,9 @@ DeleteEl = (btn, div) => {
   });
 };
 
-edit = (el) => {
+edit = (el,div) => {
   el.addEventListener("click", () => {
-    el.innerText = "jesi l ozebo,mene da menjas?";
+    el.innerText = "Why change me?";
+    div.style.backgroundColor = "#00FF00";
   });
 };

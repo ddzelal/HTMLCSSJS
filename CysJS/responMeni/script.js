@@ -53,12 +53,25 @@ const displayNone = (pictures) => {
 };
 //portofolijo odabir ..
 const portfolioSort = (button) =>{
-    let categorty = button.getAttribute ('data-category')
+    let category = button.getAttribute ('data-category')
     let portfoliItems= document.querySelectorAll('.portfolio-single-item');
     portfoliItems.forEach((item) => {
+      console.log(item);
         item.style.display='none';
     })
+
         
+    if(category === 'sve'){
+      portfoliItems.forEach((item) => {
+        item.style.display = ' block';
+      })
+    }
+
+    portfoliItems.forEach((item) => {
+      if(item.getAttribute('data-category').includes(category)){
+        item.style.display = 'block'
+      }
+    })
     };
 //27:46
 //kom
