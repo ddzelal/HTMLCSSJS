@@ -33,3 +33,32 @@ edit = (el,div) => {
     div.style.backgroundColor = "#00FF00";
   });
 };
+
+
+test = () => {
+
+  console.log(i);
+
+  dete = () => {
+      var i = 2 ;
+  }
+  dete()
+}
+
+test()
+
+
+
+function func1() {
+  if (true) {
+    var a = 10
+  }
+
+  function func2() {
+    console.log(a);
+  }
+  func2()
+  console.log(a);
+}
+
+func1()
